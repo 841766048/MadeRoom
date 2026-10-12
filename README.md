@@ -100,3 +100,27 @@ Debug 长按 1.5 秒打开页面检查目录；`--screen D04` 可直达页面。
 ## Pixso 账号流程（2026-10-08）
 
 已根据 Pixso MCP 获取的四页设计加入原生邮箱登录、注册、找回密码和首次启动协议弹层。登录插画上下边缘使用原生渐变衔接背景，字号采用设计稿的思源黑体。入口为首次启动、A01/A02 和设置 → 账号 → 邮箱登录。账号服务尚未配置，详情与实际验证边界见 [账号流程说明](docs/pixso-auth/README.md)。
+
+## Codemagic（MadeRoom）
+
+仓库根目录的 `codemagic.yaml` 提供两个手动工作流，固定 Xcode 27.0、CocoaPods 1.16.2，使用已提交的 `Podfile.lock` 和 `MadeRoom.xcworkspace`。不设置自动触发。
+
+- `ios-tests`：安装锁定依赖 → MadeRoomTests 单元测试 → 无分发签名的真机 Release 编译。
+- `ios-release`：安装依赖 → 设置构建号 → 单元测试 → App Store 签名 → 归档导出 IPA。使用前在 MadeRoom 环境变量中设置未上传过的正整数 `RELEASE_BUILD_NUMBER`，并配置匹配 `studio.maderoom.ios` 的 App Store 描述文件与证书。
+
+版本默认 `1.0.0 (1)`，由 `project.yml` 与已提交工程一致管理；CI 使用 agvtool 修改当前构建副本的 Build 号。后续更新营销版本时同步修改 XcodeGen 配置并重新生成工程、执行 `pod install`。
+
+本次仅配置代码侧，未绑定 Apple API 集成、未配置 publishing、未上传或自动提审。Apple 团队和商店应用记录确认后，再增加对应的 `integrations.app_store_connect` 与发布配置。不要直接使用其他应用的描述文件。
+
+CI 运行 `MadeRoomTests`，不包含需要在线账号和外部服务的 `MadeRoomUITests`；UI 验收需单独执行。测试结果及编译日志作为构建产物保留。
+
+本地验证：
+
+```sh
+pod install --deployment
+bash scripts/ci-tests.sh
+# 可覆盖模拟器目标，例如：
+TEST_DESTINATION='platform=iOS Simulator,name=iPhone 18 Pro,OS=27.0' bash scripts/ci-tests.sh
+```
+
+提交并推送配置后，在 Codemagic 的 MadeRoom 项目选择对应分支，点击 Check for configuration files，然后手动运行 `ios-tests`。当前代码配置不代表云端构建、签名或上传已经验证成功。

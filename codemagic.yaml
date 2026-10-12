@@ -1,0 +1,66 @@
+# MadeRoom / https://github.com/841766048/MadeRoom
+# Manual workflows only. Apple signing resources must match studio.maderoom.ios.
+workflows:
+  ios-tests:
+    name: MadeRoom - unit tests and Release build
+    instance_type: mac_mini_m2
+    max_build_duration: 90
+    environment:
+      xcode: '27.0'
+      cocoapods: '1.16.2'
+    scripts:
+      - &dependencies
+        name: Install locked CocoaPods dependencies
+        script: |
+          set -euo pipefail
+          pod install --deployment
+          cmp Podfile.lock Pods/Manifest.lock
+      - &tests
+        name: Run unit tests
+        script: bash scripts/ci-tests.sh
+      - name: Build Release for iOS without distribution signing
+        script: |
+          set -euo pipefail
+          xcodebuild -workspace MadeRoom.xcworkspace -scheme MadeRoom \
+            -configuration Release -destination 'generic/platform=iOS' \
+            -derivedDataPath build CODE_SIGNING_ALLOWED=NO build \
+            2>&1 | tee build/ci/release.log
+    artifacts:
+      - build/ci/*.log
+      - build/ci/*.xcresult
+  ios-release:
+    name: MadeRoom - App Store IPA (manual)
+    instance_type: mac_mini_m2
+    max_build_duration: 90
+    environment:
+      xcode: '27.0'
+      cocoapods: '1.16.2'
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: studio.maderoom.ios
+    scripts:
+      - *dependencies
+      - name: Set explicit release build number
+        script: |
+          set -euo pipefail
+          : "${RELEASE_BUILD_NUMBER:?Set an unused positive build number in MadeRoom environment variables}"
+          [[ "$RELEASE_BUILD_NUMBER" =~ ^[1-9][0-9]*$ ]] || exit 1
+          agvtool new-version -all "$RELEASE_BUILD_NUMBER"
+      - *tests
+      - name: Apply App Store signing
+        script: |
+          set -euo pipefail
+          xcode-project use-profiles --project MadeRoom.xcodeproj
+      - name: Archive and export IPA
+        script: |
+          set -euo pipefail
+          xcode-project build-ipa --workspace MadeRoom.xcworkspace \
+            --scheme MadeRoom --config Release
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - build/ios/archive/*.xcarchive
+      - build/ci/*.log
+      - build/ci/*.xcresult
+      - /tmp/xcodebuild_logs/*.log
+# Upload publishing is intentionally deferred until the Apple team and app record
+# are verified. ios-release currently exports an IPA only.
