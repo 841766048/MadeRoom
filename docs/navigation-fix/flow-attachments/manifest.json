@@ -1,0 +1,17 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "3A6D13B0-D67C-4AA7-8AC0-34E032C7C762.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "P02-local_0_F52E0E7F-8D2B-48ED-BCB5-A0E6E2F72FB9.png",
+        "timestamp" : 1790584203.769
+      }
+    ],
+    "testIdentifier" : "MadeRoomUITests/testLocalListsAndEditedProfile()",
+    "testIdentifierURL" : "test://com.apple.xcode/MadeRoom/MadeRoomUITests/MadeRoomUITests/testLocalListsAndEditedProfile"
+  }
+]

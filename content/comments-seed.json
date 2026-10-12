@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "comments": [
+    {
+      "id": "tessa",
+      "knowledgeId": "woven-reading-corner",
+      "parentId": null,
+      "authorDisplayName": "Tessa Kim",
+      "authorUid": null,
+      "text": "This is so cozy! What cord did you use for the warp?",
+      "language": "en",
+      "avatarImageId": "comment-tessa",
+      "legacyAgeLabel": "2d ago",
+      "createdAt": null,
+      "seedLikeCount": 12,
+      "isDemo": true,
+      "syncStatus": "local-only"
+    },
+    {
+      "id": "maya-tessa",
+      "knowledgeId": "woven-reading-corner",
+      "parentId": "tessa",
+      "authorDisplayName": "Maya",
+      "authorUid": null,
+      "text": "I used 3 mm cotton from a local craft shop. It’s soft but super durable!",
+      "language": "en",
+      "avatarImageId": "comment-maya",
+      "legacyAgeLabel": "2d ago",
+      "createdAt": null,
+      "seedLikeCount": 28,
+      "isDemo": true,
+      "syncStatus": "local-only"
+    },
+    {
+      "id": "elena",
+      "knowledgeId": "woven-reading-corner",
+      "parentId": null,
+      "authorDisplayName": "Elena Cruz",
+      "authorUid": null,
+      "text": "The colors are beautiful together. Did you follow a pattern?",
+      "language": "en",
+      "avatarImageId": "comment-elena",
+      "legacyAgeLabel": "3d ago",
+      "createdAt": null,
+      "seedLikeCount": 6,
+      "isDemo": true,
+      "syncStatus": "local-only"
+    },
+    {
+      "id": "maya-elena",
+      "knowledgeId": "woven-reading-corner",
+      "parentId": "elena",
+      "authorDisplayName": "Maya",
+      "authorUid": null,
+      "text": "I drafted my own, but I’m sharing a step-by-step in the tutorial!",
+      "language": "en",
+      "avatarImageId": "comment-maya",
+      "legacyAgeLabel": "3d ago",
+      "createdAt": null,
+      "seedLikeCount": 14,
+      "isDemo": true,
+      "syncStatus": "local-only"
+    },
+    {
+      "id": "priya",
+      "knowledgeId": "woven-reading-corner",
+      "parentId": null,
+      "authorDisplayName": "Priya Shah",
+      "authorUid": null,
+      "text": "This makes me want to carve out a reading corner too. Lovely work!",
+      "language": "en",
+      "avatarImageId": "comment-priya",
+      "legacyAgeLabel": "4d ago",
+      "createdAt": null,
+      "seedLikeCount": 9,
+      "isDemo": true,
+      "syncStatus": "local-only"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "E0D58CD4-5040-4A33-9232-76A995C4839F.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Language-Chinese_0_7B238CDD-4811-4898-BF45-281D9023FDF9.png",
+        "timestamp" : 1790647730.583
+      }
+    ],
+    "testIdentifier" : "MadeRoomUITests/testLanguageSwitchPersistsAndUpdatesNavigation()",
+    "testIdentifierURL" : "test://com.apple.xcode/MadeRoom/MadeRoomUITests/MadeRoomUITests/testLanguageSwitchPersistsAndUpdatesNavigation"
+  }
+]

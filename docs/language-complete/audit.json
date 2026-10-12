@@ -1,0 +1,5 @@
+{
+  "translation_keys": 563,
+  "missing_literal_candidates": {},
+  "note": "Brand/person names and user-entered content remain unchanged. Dynamic text is validated in UI tests."
+}

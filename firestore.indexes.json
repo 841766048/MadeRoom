@@ -1,0 +1,79 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "memberPosts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "visibility",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "memberPosts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "authorUID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": [
+    {
+      "collectionGroup": "spaces",
+      "fieldPath": "beforePhoto",
+      "indexes": []
+    },
+    {
+      "collectionGroup": "spaces",
+      "fieldPath": "afterPhoto",
+      "indexes": []
+    },
+    {
+      "collectionGroup": "spaces",
+      "fieldPath": "piecesJSON",
+      "indexes": []
+    },
+    {
+      "collectionGroup": "spaces",
+      "fieldPath": "planJSON",
+      "indexes": []
+    },
+    {
+      "collectionGroup": "spaces",
+      "fieldPath": "notes",
+      "indexes": []
+    },
+    {
+      "collectionGroup": "memberPosts",
+      "fieldPath": "photoData",
+      "indexes": []
+    },
+    {
+      "collectionGroup": "library",
+      "fieldPath": "payload",
+      "indexes": []
+    },
+    {
+      "collectionGroup": "library",
+      "fieldPath": "photo",
+      "indexes": []
+    },
+    {
+      "collectionGroup": "submissions",
+      "fieldPath": "photo",
+      "indexes": []
+    }
+  ]
+}

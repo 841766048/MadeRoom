@@ -1,0 +1,26 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "824140E1-4A52-488D-8F77-3B0F78836A60.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Make-Home_0_EF69E588-B142-40A0-8105-2674EF86538E.png",
+        "timestamp" : 1790592529.78
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "2221B6E4-679C-44E0-9E78-05DC00C94931.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Make-Empty_0_5A87B669-642E-48BF-A344-699E03C0745E.png",
+        "timestamp" : 1790592520.731
+      }
+    ],
+    "testIdentifier" : "MadeRoomUITests/testTabsAndProjectCreation()",
+    "testIdentifierURL" : "test://com.apple.xcode/MadeRoom/MadeRoomUITests/MadeRoomUITests/testTabsAndProjectCreation"
+  }
+]

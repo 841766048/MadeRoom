@@ -1,0 +1,59 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "F2603AAF-A039-4E2D-B9D5-53D2005F72DE.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "P02-local_0_3F715609-A1BA-4510-83CB-319792BF84B9.png",
+        "timestamp" : 1790586753.342
+      }
+    ],
+    "testIdentifier" : "MadeRoomUITests/testLocalListsAndEditedProfile()",
+    "testIdentifierURL" : "test://com.apple.xcode/MadeRoom/MadeRoomUITests/MadeRoomUITests/testLocalListsAndEditedProfile"
+  },
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "F1D5CCAD-3C23-4551-90E6-674C82446A1A.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Profile-P04_0_AAE42CA5-A96F-417B-901D-0B4BA8F8C946.png",
+        "timestamp" : 1790586771.82
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "D442CA5D-1F41-4E99-9E72-51B59A98E395.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Profile-P03_0_894634D0-7603-491F-AF30-2277B6465F75.png",
+        "timestamp" : 1790586767.338
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "70DC2E51-7B2D-4C29-B192-8E6353B36619.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Profile-P02_0_32A04369-F336-4677-BAB3-A161AA503774.png",
+        "timestamp" : 1790586762.79
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "BB099D2A-2025-4008-A49B-A484029BBE87.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Profile-P01_0_A18A405A-1BE0-4262-958D-9F7FDF97AB19.png",
+        "timestamp" : 1790586758.274
+      }
+    ],
+    "testIdentifier" : "MadeRoomUITests/testProfileDesignScreenshots()",
+    "testIdentifierURL" : "test://com.apple.xcode/MadeRoom/MadeRoomUITests/MadeRoomUITests/testProfileDesignScreenshots"
+  }
+]

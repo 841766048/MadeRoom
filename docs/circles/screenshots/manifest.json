@@ -1,0 +1,17 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "D83AD7C4-8069-4F4A-B3C2-94499B7D11CA.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Circle membership restored from server_0_EE890710-D158-4782-96C2-EB1E75D188F9.png",
+        "timestamp" : 1791624730.936
+      }
+    ],
+    "testIdentifier" : "AuthFlowUITests/testCircleJoinRestoreLeaveAndAccountIsolation()",
+    "testIdentifierURL" : "test://com.apple.xcode/MadeRoom/MadeRoomUITests/AuthFlowUITests/testCircleJoinRestoreLeaveAndAccountIsolation"
+  }
+]

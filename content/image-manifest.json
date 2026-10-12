@@ -1,0 +1,1060 @@
+{
+  "schemaVersion": 1,
+  "projectId": "made-room-20261009",
+  "bucket": null,
+  "images": [
+    {
+      "id": "activity-marisol",
+      "localPath": "MadeRoom/Resources/EditorialAssets/activity-marisol.png",
+      "sha256": "00ceb1702943a01ebea05531c284b1d808ac0bb77f5de350fd320defca16fdd3",
+      "byteCount": 5539,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/00ceb1702943a01e/activity-marisol.png",
+      "hostingPath": "editorial/00ceb1702943a01e/activity-marisol.png"
+    },
+    {
+      "id": "reading-room",
+      "localPath": "MadeRoom/Resources/EditorialAssets/reading-room.png",
+      "sha256": "f6c040a31aded13afb72b7f424422889d4dbf2c9f456e56df4d65064120f17b2",
+      "byteCount": 192957,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "woven-reading-corner"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/f6c040a31aded13a/reading-room.png",
+      "hostingPath": "editorial/f6c040a31aded13a/reading-room.png"
+    },
+    {
+      "id": "search-baskets",
+      "localPath": "MadeRoom/Resources/EditorialAssets/search-baskets.png",
+      "sha256": "6d2652c5c1df237723f9a154471f5f2fec75556eda4d287b703005cdec4c5be0",
+      "byteCount": 18934,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "woven-storage-baskets"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/6d2652c5c1df2377/search-baskets.png",
+      "hostingPath": "editorial/6d2652c5c1df2377/search-baskets.png"
+    },
+    {
+      "id": "make-note",
+      "localPath": "MadeRoom/Resources/EditorialAssets/make-note.png",
+      "sha256": "74c896e95d6a34c369e905c9367b3428b7c0e41badf659991edbdcc53279f758",
+      "byteCount": 55430,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/74c896e95d6a34c3/make-note.png",
+      "hostingPath": "editorial/74c896e95d6a34c3/make-note.png"
+    },
+    {
+      "id": "comment-elena",
+      "localPath": "MadeRoom/Resources/EditorialAssets/comment-elena.png",
+      "sha256": "3d978685da979c98915a7f4027921f872f381e502697566dcb8f59f3cb901d32",
+      "byteCount": 4437,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/3d978685da979c98/comment-elena.png",
+      "hostingPath": "editorial/3d978685da979c98/comment-elena.png"
+    },
+    {
+      "id": "make-clay",
+      "localPath": "MadeRoom/Resources/EditorialAssets/make-clay.png",
+      "sha256": "57567d04ba7ef58f64acef487a273d33d2d3e318fcc169965d44c71660f91cad",
+      "byteCount": 18724,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/57567d04ba7ef58f/make-clay.png",
+      "hostingPath": "editorial/57567d04ba7ef58f/make-clay.png"
+    },
+    {
+      "id": "creator-weave",
+      "localPath": "MadeRoom/Resources/EditorialAssets/creator-weave.png",
+      "sha256": "4186e434e928edcd32fe64f05d9f5ea0d0667cf3feaddd4cc7e6535d5e5a353e",
+      "byteCount": 27209,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/4186e434e928edcd/creator-weave.png",
+      "hostingPath": "editorial/4186e434e928edcd/creator-weave.png"
+    },
+    {
+      "id": "make-weave",
+      "localPath": "MadeRoom/Resources/EditorialAssets/make-weave.png",
+      "sha256": "1b640e5025082f943179a1f3c042c9446c4b84fda23c541c7ffe25fbc7addf13",
+      "byteCount": 18089,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/1b640e5025082f94/make-weave.png",
+      "hostingPath": "editorial/1b640e5025082f94/make-weave.png"
+    },
+    {
+      "id": "plant",
+      "localPath": "MadeRoom/Resources/EditorialAssets/plant.png",
+      "sha256": "07ec0ba4474e2a640423211e83112726aaa13af4323ed1cb008633a93c08bead",
+      "byteCount": 9345,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/07ec0ba4474e2a64/plant.png",
+      "hostingPath": "editorial/07ec0ba4474e2a64/plant.png"
+    },
+    {
+      "id": "profile-hanging-plant",
+      "localPath": "MadeRoom/Resources/EditorialAssets/profile-hanging-plant.png",
+      "sha256": "78415b2f59c13adaff3101aa2db5a26b831359b2c4157c4abcd2cde3cf8fbc9e",
+      "byteCount": 20550,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/78415b2f59c13ada/profile-hanging-plant.png",
+      "hostingPath": "editorial/78415b2f59c13ada/profile-hanging-plant.png"
+    },
+    {
+      "id": "auth-envelope",
+      "localPath": "MadeRoom/Resources/EditorialAssets/auth-envelope.png",
+      "sha256": "2d177f3ab92c15c5c5e37421b062559a042484ed3fa364228b85086b2c4df04e",
+      "byteCount": 27628,
+      "contentType": "image/png",
+      "storagePath": "editorial/v1/auth-envelope.png",
+      "knowledgeIds": [],
+      "uploadStatus": "bundled-auth-art",
+      "downloadURL": null
+    },
+    {
+      "id": "activity-plant",
+      "localPath": "MadeRoom/Resources/EditorialAssets/activity-plant.png",
+      "sha256": "4dac7d313b80dae3bcfa8ceb94dafe286a830c0e18f70615a97f55dc73ed3666",
+      "byteCount": 6414,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/4dac7d313b80dae3/activity-plant.png",
+      "hostingPath": "editorial/4dac7d313b80dae3/activity-plant.png"
+    },
+    {
+      "id": "comment-tessa",
+      "localPath": "MadeRoom/Resources/EditorialAssets/comment-tessa.png",
+      "sha256": "3ff9f7e735c717622c0085fb2eff401795be0d2c72135f73503e068508d041fc",
+      "byteCount": 4159,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/3ff9f7e735c71762/comment-tessa.png",
+      "hostingPath": "editorial/3ff9f7e735c71762/comment-tessa.png"
+    },
+    {
+      "id": "activity-space",
+      "localPath": "MadeRoom/Resources/EditorialAssets/activity-space.png",
+      "sha256": "47cb67e22a3650c40690ace691aeaef16e094a11f5514c4c38bd2d948ee68f2a",
+      "byteCount": 7014,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/47cb67e22a3650c4/activity-space.png",
+      "hostingPath": "editorial/47cb67e22a3650c4/activity-space.png"
+    },
+    {
+      "id": "saved-blue-mug",
+      "localPath": "MadeRoom/Resources/EditorialAssets/saved-blue-mug.png",
+      "sha256": "afe65de7040036d8a07ae1eb93147258e4205148039eb1350190ff8be523503b",
+      "byteCount": 8137,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/afe65de7040036d8/saved-blue-mug.png",
+      "hostingPath": "editorial/afe65de7040036d8/saved-blue-mug.png"
+    },
+    {
+      "id": "make-empty",
+      "localPath": "MadeRoom/Resources/EditorialAssets/make-empty.png",
+      "sha256": "2f2e5cc9fd9115e790564151bea0e7c6b2893bbbc5a47d32fc490e33a35f6343",
+      "byteCount": 101353,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/2f2e5cc9fd9115e7/make-empty.png",
+      "hostingPath": "editorial/2f2e5cc9fd9115e7/make-empty.png"
+    },
+    {
+      "id": "activity-mug",
+      "localPath": "MadeRoom/Resources/EditorialAssets/activity-mug.png",
+      "sha256": "2ab263e48fd123cec4bdf0f25b00936cb7562b48dcb773a4953cef1a2ba50c04",
+      "byteCount": 5425,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/2ab263e48fd123ce/activity-mug.png",
+      "hostingPath": "editorial/2ab263e48fd123ce/activity-mug.png"
+    },
+    {
+      "id": "saved-books",
+      "localPath": "MadeRoom/Resources/EditorialAssets/saved-books.png",
+      "sha256": "724fc23f3354e84720c0f7a1205411272af49adcad7e30a594a8695a53945b7e",
+      "byteCount": 8098,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/724fc23f3354e847/saved-books.png",
+      "hostingPath": "editorial/724fc23f3354e847/saved-books.png"
+    },
+    {
+      "id": "activity-tessa",
+      "localPath": "MadeRoom/Resources/EditorialAssets/activity-tessa.png",
+      "sha256": "c33025cb28fdde62c4ea33f25dbe13b71a9eb1c96fa3b0ef09bd833744e10928",
+      "byteCount": 5524,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/c33025cb28fdde62/activity-tessa.png",
+      "hostingPath": "editorial/c33025cb28fdde62/activity-tessa.png"
+    },
+    {
+      "id": "maker",
+      "localPath": "MadeRoom/Resources/EditorialAssets/maker.png",
+      "sha256": "6bddd8ed6a8dcd08e87783f6162e735190eafa7b06d0805e26824e295e23dcd9",
+      "byteCount": 3001,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/6bddd8ed6a8dcd08/maker.png",
+      "hostingPath": "editorial/6bddd8ed6a8dcd08/maker.png"
+    },
+    {
+      "id": "search-placemats",
+      "localPath": "MadeRoom/Resources/EditorialAssets/search-placemats.png",
+      "sha256": "399e510f4f4c95dd3ff4860477c9d15eeb2713dc8039c137dbce29a8bf424214",
+      "byteCount": 20756,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "woven-placemats"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/399e510f4f4c95dd/search-placemats.png",
+      "hostingPath": "editorial/399e510f4f4c95dd/search-placemats.png"
+    },
+    {
+      "id": "creator-nora",
+      "localPath": "MadeRoom/Resources/EditorialAssets/creator-nora.png",
+      "sha256": "6d120683b2a4211bdb53489848bbf2ceafb0af4134f140f4f5fa6d1b744d69d4",
+      "byteCount": 18916,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/6d120683b2a4211b/creator-nora.png",
+      "hostingPath": "editorial/6d120683b2a4211b/creator-nora.png"
+    },
+    {
+      "id": "auth-room",
+      "localPath": "MadeRoom/Resources/EditorialAssets/auth-room.png",
+      "sha256": "577cf663a0d32c7f9eeee136de7cbdaa0aca0de6b48d23f7c0df611bca4c6ad9",
+      "byteCount": 189541,
+      "contentType": "image/png",
+      "storagePath": "editorial/v1/auth-room.png",
+      "knowledgeIds": [],
+      "uploadStatus": "bundled-auth-art",
+      "downloadURL": null
+    },
+    {
+      "id": "comment-post",
+      "localPath": "MadeRoom/Resources/EditorialAssets/comment-post.png",
+      "sha256": "f705a7c0bec2134665cfed941fe48dcade8bb7ceb84bb8c5393f6e68da7b701d",
+      "byteCount": 8068,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/f705a7c0bec21346/comment-post.png",
+      "hostingPath": "editorial/f705a7c0bec21346/comment-post.png"
+    },
+    {
+      "id": "profile-edit-avatar",
+      "localPath": "MadeRoom/Resources/EditorialAssets/profile-edit-avatar.png",
+      "sha256": "03a5cefbf37a23cec2e50d3f7c80fcc30dec94f4c46f73f30ec493cba79c94b3",
+      "byteCount": 41216,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/03a5cefbf37a23ce/profile-edit-avatar.png",
+      "hostingPath": "editorial/03a5cefbf37a23ce/profile-edit-avatar.png"
+    },
+    {
+      "id": "saved-lamp",
+      "localPath": "MadeRoom/Resources/EditorialAssets/saved-lamp.png",
+      "sha256": "ea4019a3ac106cad50a2a2fe971bf3668e7ee2640ea5463065200087dd1dda7c",
+      "byteCount": 7558,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/ea4019a3ac106cad/saved-lamp.png",
+      "hostingPath": "editorial/ea4019a3ac106cad/saved-lamp.png"
+    },
+    {
+      "id": "cotton",
+      "localPath": "MadeRoom/Resources/EditorialAssets/cotton.png",
+      "sha256": "bd4493ea63c475f04918ddddcc91695d8f1bb97c5436e6db48289929668795a7",
+      "byteCount": 7113,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/bd4493ea63c475f0/cotton.png",
+      "hostingPath": "editorial/bd4493ea63c475f0/cotton.png"
+    },
+    {
+      "id": "auth-plant",
+      "localPath": "MadeRoom/Resources/EditorialAssets/auth-plant.png",
+      "sha256": "0733f134e07b5ada3c6ee44105bf7408d5bc2a7a10457e694789d582b6b0ba56",
+      "byteCount": 38232,
+      "contentType": "image/png",
+      "storagePath": "editorial/v1/auth-plant.png",
+      "knowledgeIds": [],
+      "uploadStatus": "bundled-auth-art",
+      "downloadURL": null
+    },
+    {
+      "id": "profile-daisies",
+      "localPath": "MadeRoom/Resources/EditorialAssets/profile-daisies.png",
+      "sha256": "aa5aa4d191616c3e9c34642096b5607656cb7e77237f1b06dab9d6b2715b49e8",
+      "byteCount": 16404,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/aa5aa4d191616c3e/profile-daisies.png",
+      "hostingPath": "editorial/aa5aa4d191616c3e/profile-daisies.png"
+    },
+    {
+      "id": "profile-flowers",
+      "localPath": "MadeRoom/Resources/EditorialAssets/profile-flowers.png",
+      "sha256": "30219bf1da9dd28077683a573b242c817703573b7f3b8a58e61cd2f2f8b1565e",
+      "byteCount": 18708,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/30219bf1da9dd280/profile-flowers.png",
+      "hostingPath": "editorial/30219bf1da9dd280/profile-flowers.png"
+    },
+    {
+      "id": "search-basics",
+      "localPath": "MadeRoom/Resources/EditorialAssets/search-basics.png",
+      "sha256": "812908585a0025f3490ffdb3a38f71e26e8ead05cd1ff58ef04ea21ed65eafc8",
+      "byteCount": 19238,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "weaving-basics",
+        "weaving-even-edges"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/812908585a0025f3/search-basics.png",
+      "hostingPath": "editorial/812908585a0025f3/search-basics.png"
+    },
+    {
+      "id": "profile-avatar",
+      "localPath": "MadeRoom/Resources/EditorialAssets/profile-avatar.png",
+      "sha256": "17bdc7b16c7336b15eda801fd4cd6646d1181eb6fd07075c0e7631d0ebd7a6b1",
+      "byteCount": 20035,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/17bdc7b16c7336b1/profile-avatar.png",
+      "hostingPath": "editorial/17bdc7b16c7336b1/profile-avatar.png"
+    },
+    {
+      "id": "profile-cover",
+      "localPath": "MadeRoom/Resources/EditorialAssets/profile-cover.png",
+      "sha256": "81b85e5fb8fc13ccfee7e94cd99509044069987d9eb6a3f8dae5fe04e1b76fbd",
+      "byteCount": 106205,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/81b85e5fb8fc13cc/profile-cover.png",
+      "hostingPath": "editorial/81b85e5fb8fc13cc/profile-cover.png"
+    },
+    {
+      "id": "search-wall",
+      "localPath": "MadeRoom/Resources/EditorialAssets/search-wall.png",
+      "sha256": "2acddf8ee3e655bcfbeee96eec66b7374b20be3b426d2a5f509fec93cbfc0ff0",
+      "byteCount": 15448,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/2acddf8ee3e655bc/search-wall.png",
+      "hostingPath": "editorial/2acddf8ee3e655bc/search-wall.png"
+    },
+    {
+      "id": "challenge-shelf",
+      "localPath": "MadeRoom/Resources/EditorialAssets/challenge-shelf.png",
+      "sha256": "dd5e9e7810344f16e6d0189c6bf7d6a58c5213531d194821c69980b92e4543a7",
+      "byteCount": 141261,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "one-shelf-handmade"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/dd5e9e7810344f16/challenge-shelf.png",
+      "hostingPath": "editorial/dd5e9e7810344f16/challenge-shelf.png"
+    },
+    {
+      "id": "profile-mug",
+      "localPath": "MadeRoom/Resources/EditorialAssets/profile-mug.png",
+      "sha256": "5ef57b679d22fa1331fd0398f9d11b37162457ee61a3f03a1de1af2e90df3ffa",
+      "byteCount": 17315,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/5ef57b679d22fa13/profile-mug.png",
+      "hostingPath": "editorial/5ef57b679d22fa13/profile-mug.png"
+    },
+    {
+      "id": "activity-lena",
+      "localPath": "MadeRoom/Resources/EditorialAssets/activity-lena.png",
+      "sha256": "c11cf6ec21001f53263d6a53b6110af180f817da2775ce34eaf1c475cc36d8a3",
+      "byteCount": 5534,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/c11cf6ec21001f53/activity-lena.png",
+      "hostingPath": "editorial/c11cf6ec21001f53/activity-lena.png"
+    },
+    {
+      "id": "comment-priya",
+      "localPath": "MadeRoom/Resources/EditorialAssets/comment-priya.png",
+      "sha256": "9f94b5225fa9f00a25ce8705e6decdc2015b065f74f70196d13997b2f49c7041",
+      "byteCount": 4285,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/9f94b5225fa9f00a/comment-priya.png",
+      "hostingPath": "editorial/9f94b5225fa9f00a/comment-priya.png"
+    },
+    {
+      "id": "space-reading",
+      "localPath": "MadeRoom/Resources/EditorialAssets/space-reading.png",
+      "sha256": "b360aa9c450a11220cb7e6acfc1b662ec7fe1ceeb139d5493bc883613c0b33e8",
+      "byteCount": 122883,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "softer-reading-corner"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/b360aa9c450a1122/space-reading.png",
+      "hostingPath": "editorial/b360aa9c450a1122/space-reading.png"
+    },
+    {
+      "id": "connection-8",
+      "localPath": "MadeRoom/Resources/EditorialAssets/connection-8.png",
+      "sha256": "2cba1c698f6dd4d4d08ceebb5d9e7becaf05052096cf272d9d8a7da097db8746",
+      "byteCount": 4553,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/2cba1c698f6dd4d4/connection-8.png",
+      "hostingPath": "editorial/2cba1c698f6dd4d4/connection-8.png"
+    },
+    {
+      "id": "creator-bowl",
+      "localPath": "MadeRoom/Resources/EditorialAssets/creator-bowl.png",
+      "sha256": "76a1e3d3da5e8af02ef2153e399d2d6bee26492cddf67887c39e16e36d74909e",
+      "byteCount": 28472,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/76a1e3d3da5e8af0/creator-bowl.png",
+      "hostingPath": "editorial/76a1e3d3da5e8af0/creator-bowl.png"
+    },
+    {
+      "id": "scissors",
+      "localPath": "MadeRoom/Resources/EditorialAssets/scissors.png",
+      "sha256": "70045cba306446a2ea0b73ea3b1e83976e3a07afc1fced208662019e3c0bff7c",
+      "byteCount": 5406,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/70045cba306446a2/scissors.png",
+      "hostingPath": "editorial/70045cba306446a2/scissors.png"
+    },
+    {
+      "id": "weaving-maker",
+      "localPath": "MadeRoom/Resources/EditorialAssets/weaving-maker.png",
+      "sha256": "a14e0dfdd184995a9d2fbe775fc3bae98c4ab8bdcbeed671ba6c37875c25f09b",
+      "byteCount": 95435,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/a14e0dfdd184995a/weaving-maker.png",
+      "hostingPath": "editorial/a14e0dfdd184995a/weaving-maker.png"
+    },
+    {
+      "id": "comment-maya",
+      "localPath": "MadeRoom/Resources/EditorialAssets/comment-maya.png",
+      "sha256": "d00298963e4f58d51ddab8a89daae510cbc84124a74033f99dfde2f0eaa5d47e",
+      "byteCount": 2669,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/d00298963e4f58d5/comment-maya.png",
+      "hostingPath": "editorial/d00298963e4f58d5/comment-maya.png"
+    },
+    {
+      "id": "auth-mug",
+      "localPath": "MadeRoom/Resources/EditorialAssets/auth-mug.png",
+      "sha256": "2e5b94b2574d631dff4985e70420323f007c42a28256a3014a23dbd092569e2b",
+      "byteCount": 44883,
+      "contentType": "image/png",
+      "storagePath": "editorial/v1/auth-mug.png",
+      "knowledgeIds": [],
+      "uploadStatus": "bundled-auth-art",
+      "downloadURL": null
+    },
+    {
+      "id": "saved-plant",
+      "localPath": "MadeRoom/Resources/EditorialAssets/saved-plant.png",
+      "sha256": "de54c5b7d5be6dd54bdc610a3c7644fd8dffa7d9f708e100db8be4a5944e5413",
+      "byteCount": 9311,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/de54c5b7d5be6dd5/saved-plant.png",
+      "hostingPath": "editorial/de54c5b7d5be6dd5/saved-plant.png"
+    },
+    {
+      "id": "make-basket",
+      "localPath": "MadeRoom/Resources/EditorialAssets/make-basket.png",
+      "sha256": "983225fd566dd6176ec1375e5d08258d431d290e9a821cf06d245f7df3d918c7",
+      "byteCount": 14400,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/983225fd566dd617/make-basket.png",
+      "hostingPath": "editorial/983225fd566dd617/make-basket.png"
+    },
+    {
+      "id": "space-entry",
+      "localPath": "MadeRoom/Resources/EditorialAssets/space-entry.png",
+      "sha256": "fc417d5532b903c21441135f7584ad0f1e0f89393fee498c1ea167f7f5d9697f",
+      "byteCount": 82579,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/fc417d5532b903c2/space-entry.png",
+      "hostingPath": "editorial/fc417d5532b903c2/space-entry.png"
+    },
+    {
+      "id": "saved-mug",
+      "localPath": "MadeRoom/Resources/EditorialAssets/saved-mug.png",
+      "sha256": "c0b1e6d28e71a51c6c7680d0abef3a85358c1239a8992bc8ee8c68f961d3d7f6",
+      "byteCount": 7911,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/c0b1e6d28e71a51c/saved-mug.png",
+      "hostingPath": "editorial/c0b1e6d28e71a51c/saved-mug.png"
+    },
+    {
+      "id": "activity-yuna",
+      "localPath": "MadeRoom/Resources/EditorialAssets/activity-yuna.png",
+      "sha256": "f43c0e81e1cf360060a455e0004d9106fbe0c7860897639520956afec7cfdd46",
+      "byteCount": 5481,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/f43c0e81e1cf3600/activity-yuna.png",
+      "hostingPath": "editorial/f43c0e81e1cf3600/activity-yuna.png"
+    },
+    {
+      "id": "weave",
+      "localPath": "MadeRoom/Resources/EditorialAssets/weave.png",
+      "sha256": "58c42df2988e2cf6e83c8f39228a6430baf23cef3410479bdfff2b96907f2786",
+      "byteCount": 156246,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "woven-wall-hanging"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/58c42df2988e2cf6/weave.png",
+      "hostingPath": "editorial/58c42df2988e2cf6/weave.png"
+    },
+    {
+      "id": "weaving",
+      "localPath": "MadeRoom/Resources/EditorialAssets/weaving.png",
+      "sha256": "8c08eaa68f9b9e2f771bc9e62887ca65d0bd57a6134b2de55588f741fc52cbfb",
+      "byteCount": 9479,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "weaving-warp-spacing"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/8c08eaa68f9b9e2f/weaving.png",
+      "hostingPath": "editorial/8c08eaa68f9b9e2f/weaving.png"
+    },
+    {
+      "id": "studio",
+      "localPath": "MadeRoom/Resources/EditorialAssets/studio.png",
+      "sha256": "6aeef9f6c0cde76cb4480e15e379bae7c8ce20df7478d29b2f3f3e643c31cc27",
+      "byteCount": 11642,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/6aeef9f6c0cde76c/studio.png",
+      "hostingPath": "editorial/6aeef9f6c0cde76c/studio.png"
+    },
+    {
+      "id": "make-shelf",
+      "localPath": "MadeRoom/Resources/EditorialAssets/make-shelf.png",
+      "sha256": "ee29db90b08546c6ac7028ff9f7df5dfcb59b3d479990f77da557938c7a9bf38",
+      "byteCount": 26146,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/ee29db90b08546c6/make-shelf.png",
+      "hostingPath": "editorial/ee29db90b08546c6/make-shelf.png"
+    },
+    {
+      "id": "connection-6",
+      "localPath": "MadeRoom/Resources/EditorialAssets/connection-6.png",
+      "sha256": "e6d2278e96da2dd8be4b9e971b87d38166450af198dcaf18fd37747d65129bfc",
+      "byteCount": 4437,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/e6d2278e96da2dd8/connection-6.png",
+      "hostingPath": "editorial/e6d2278e96da2dd8/connection-6.png"
+    },
+    {
+      "id": "make-vase",
+      "localPath": "MadeRoom/Resources/EditorialAssets/make-vase.png",
+      "sha256": "a10c3eeb191f390477f53932996fa1d6fef287470aa00fb3d294e0887940ebac",
+      "byteCount": 15332,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/a10c3eeb191f3904/make-vase.png",
+      "hostingPath": "editorial/a10c3eeb191f3904/make-vase.png"
+    },
+    {
+      "id": "connection-7",
+      "localPath": "MadeRoom/Resources/EditorialAssets/connection-7.png",
+      "sha256": "ffe24ee2ccfc47a5fe7f244c75ab10c461a82c0a616fbb8a25648ec85f434a6d",
+      "byteCount": 4551,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/ffe24ee2ccfc47a5/connection-7.png",
+      "hostingPath": "editorial/ffe24ee2ccfc47a5/connection-7.png"
+    },
+    {
+      "id": "saved-fabric",
+      "localPath": "MadeRoom/Resources/EditorialAssets/saved-fabric.png",
+      "sha256": "ebb725c7c8f6de77a050b08c17470e786291be25c649381535e9189edf374c1a",
+      "byteCount": 10114,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/ebb725c7c8f6de77/saved-fabric.png",
+      "hostingPath": "editorial/ebb725c7c8f6de77/saved-fabric.png"
+    },
+    {
+      "id": "profile-bowls",
+      "localPath": "MadeRoom/Resources/EditorialAssets/profile-bowls.png",
+      "sha256": "a3f7a7541efb242d2eee2f35fda2c9129acc3ece1f94b1fe4e7e146ad3613ca8",
+      "byteCount": 17296,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/a3f7a7541efb242d/profile-bowls.png",
+      "hostingPath": "editorial/a3f7a7541efb242d/profile-bowls.png"
+    },
+    {
+      "id": "connection-5",
+      "localPath": "MadeRoom/Resources/EditorialAssets/connection-5.png",
+      "sha256": "63802151f70e0acfb5d34ca659157a8b0dc0ae58ad22f552e09724aaac07a8ba",
+      "byteCount": 4423,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/63802151f70e0acf/connection-5.png",
+      "hostingPath": "editorial/63802151f70e0acf/connection-5.png"
+    },
+    {
+      "id": "connection-4",
+      "localPath": "MadeRoom/Resources/EditorialAssets/connection-4.png",
+      "sha256": "0b96aaf9c09815bb72be9229ef40943524df2482a015dbde2b3fe1326f8ff9b2",
+      "byteCount": 4397,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/0b96aaf9c09815bb/connection-4.png",
+      "hostingPath": "editorial/0b96aaf9c09815bb/connection-4.png"
+    },
+    {
+      "id": "connection-0",
+      "localPath": "MadeRoom/Resources/EditorialAssets/connection-0.png",
+      "sha256": "ba20cfeb2c40843398a154b5acac4a8c0bc3c309b2ad008480a1e8b54eac17c9",
+      "byteCount": 4571,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/ba20cfeb2c408433/connection-0.png",
+      "hostingPath": "editorial/ba20cfeb2c408433/connection-0.png"
+    },
+    {
+      "id": "saved-reading",
+      "localPath": "MadeRoom/Resources/EditorialAssets/saved-reading.png",
+      "sha256": "3465ec36d81399f2c8bb1f48d1b1546cc986b167d49c18650ce0dd9b250959ca",
+      "byteCount": 61963,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/3465ec36d81399f2/saved-reading.png",
+      "hostingPath": "editorial/3465ec36d81399f2/saved-reading.png"
+    },
+    {
+      "id": "connection-1",
+      "localPath": "MadeRoom/Resources/EditorialAssets/connection-1.png",
+      "sha256": "348c98d10c71b1b13b6318a0da5157ac0f260fa0b5148efbd7eaa3a2208ec025",
+      "byteCount": 4420,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/348c98d10c71b1b1/connection-1.png",
+      "hostingPath": "editorial/348c98d10c71b1b1/connection-1.png"
+    },
+    {
+      "id": "knot-hands",
+      "localPath": "MadeRoom/Resources/EditorialAssets/knot-hands.png",
+      "sha256": "d1252ca2bef651f66c00e6ca42eaad1126edc6cf16f5d4abf2719f2dd2139a9e",
+      "byteCount": 126129,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/d1252ca2bef651f6/knot-hands.png",
+      "hostingPath": "editorial/d1252ca2bef651f6/knot-hands.png"
+    },
+    {
+      "id": "creator-mug",
+      "localPath": "MadeRoom/Resources/EditorialAssets/creator-mug.png",
+      "sha256": "f8007d00551840dd064e21275e487ae65d0ff3909962bd829bca0f1dfd48acd3",
+      "byteCount": 27521,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/f8007d00551840dd/creator-mug.png",
+      "hostingPath": "editorial/f8007d00551840dd/creator-mug.png"
+    },
+    {
+      "id": "connection-3",
+      "localPath": "MadeRoom/Resources/EditorialAssets/connection-3.png",
+      "sha256": "6cc1e6a4621793a9e5a72e6d62c5c05a3dcf0b530d76f7b984b03b13ca73574e",
+      "byteCount": 4416,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/6cc1e6a4621793a9/connection-3.png",
+      "hostingPath": "editorial/6cc1e6a4621793a9/connection-3.png"
+    },
+    {
+      "id": "pottery",
+      "localPath": "MadeRoom/Resources/EditorialAssets/pottery.png",
+      "sha256": "1f26ef11731a578ce518162393ad5aa2982b46f1fefe6ee4ef1ded6aaede1345",
+      "byteCount": 8756,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "clay-catchall",
+        "clay-drying-check",
+        "clay-indoor-care",
+        "clay-paint-test",
+        "clay-prevent-cracks",
+        "clay-workspace-storage"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/1f26ef11731a578c/pottery.png",
+      "hostingPath": "editorial/1f26ef11731a578c/pottery.png"
+    },
+    {
+      "id": "dowel",
+      "localPath": "MadeRoom/Resources/EditorialAssets/dowel.png",
+      "sha256": "602a4f1c518f81ad57a9cbc9865fb1c95237bdb012fbfd9b5f92200302e2d679",
+      "byteCount": 4849,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/602a4f1c518f81ad/dowel.png",
+      "hostingPath": "editorial/602a4f1c518f81ad/dowel.png"
+    },
+    {
+      "id": "saved-plate",
+      "localPath": "MadeRoom/Resources/EditorialAssets/saved-plate.png",
+      "sha256": "ab578e64ebbcbeff444f1b6a54fae50cbedffc4eec5af8d91301ab0de70da207",
+      "byteCount": 9920,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/ab578e64ebbcbeff/saved-plate.png",
+      "hostingPath": "editorial/ab578e64ebbcbeff/saved-plate.png"
+    },
+    {
+      "id": "connection-2",
+      "localPath": "MadeRoom/Resources/EditorialAssets/connection-2.png",
+      "sha256": "89f098b4977a236be3895538481e9c0710cbc375c40bc6c59e8df0c00e6e9763",
+      "byteCount": 4672,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/89f098b4977a236b/connection-2.png",
+      "hostingPath": "editorial/89f098b4977a236b/connection-2.png"
+    },
+    {
+      "id": "saved-crochet",
+      "localPath": "MadeRoom/Resources/EditorialAssets/saved-crochet.png",
+      "sha256": "d9e243324bf0127a9eecedc670e715db00e7644edb422db1286ff28c39c2f6ca",
+      "byteCount": 10076,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/d9e243324bf0127a/saved-crochet.png",
+      "hostingPath": "editorial/d9e243324bf0127a/saved-crochet.png"
+    },
+    {
+      "id": "saved-weekend",
+      "localPath": "MadeRoom/Resources/EditorialAssets/saved-weekend.png",
+      "sha256": "9852d381244ed4446f97a8fe6aba4c014459412349d4db1be46a703c396cca3b",
+      "byteCount": 63276,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/9852d381244ed444/saved-weekend.png",
+      "hostingPath": "editorial/9852d381244ed444/saved-weekend.png"
+    },
+    {
+      "id": "make-finished",
+      "localPath": "MadeRoom/Resources/EditorialAssets/make-finished.png",
+      "sha256": "18e440a3957c029c6c345474d937226cbb86daac19c3bd58ee52b127fd106ebe",
+      "byteCount": 177725,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/18e440a3957c029c/make-finished.png",
+      "hostingPath": "editorial/18e440a3957c029c/make-finished.png"
+    },
+    {
+      "id": "profile-pillow",
+      "localPath": "MadeRoom/Resources/EditorialAssets/profile-pillow.png",
+      "sha256": "fc19a588d39ce890d876542fba661ee450c8d87d5d1c2d7df6c1ee1bc2758cfa",
+      "byteCount": 18797,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/fc19a588d39ce890/profile-pillow.png",
+      "hostingPath": "editorial/fc19a588d39ce890/profile-pillow.png"
+    },
+    {
+      "id": "activity-flowers",
+      "localPath": "MadeRoom/Resources/EditorialAssets/activity-flowers.png",
+      "sha256": "5c0f2ee90c160cc4aa904a4356975d30b328e8a8c108c6a84a1c23ffa566a0e0",
+      "byteCount": 5682,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/5c0f2ee90c160cc4/activity-flowers.png",
+      "hostingPath": "editorial/5c0f2ee90c160cc4/activity-flowers.png"
+    },
+    {
+      "id": "creator-vase",
+      "localPath": "MadeRoom/Resources/EditorialAssets/creator-vase.png",
+      "sha256": "eafee7891047151a78c74d683108f94d8aed6598544b0c5a72f850203978f60c",
+      "byteCount": 31623,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/eafee7891047151a/creator-vase.png",
+      "hostingPath": "editorial/eafee7891047151a/creator-vase.png"
+    },
+    {
+      "id": "make-edit",
+      "localPath": "MadeRoom/Resources/EditorialAssets/make-edit.png",
+      "sha256": "484a8965627b7ecb7efe96e442d76ac713e3cd6a6a4ff969d8cb33f0dbbcb675",
+      "byteCount": 69337,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/484a8965627b7ecb/make-edit.png",
+      "hostingPath": "editorial/484a8965627b7ecb/make-edit.png"
+    },
+    {
+      "id": "yarn",
+      "localPath": "MadeRoom/Resources/EditorialAssets/yarn.png",
+      "sha256": "3266bf9adca08c16ddec7ab22fcbfd1f45ef934fd0b87e5267d5c2788ef388ae",
+      "byteCount": 7331,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/3266bf9adca08c16/yarn.png",
+      "hostingPath": "editorial/3266bf9adca08c16/yarn.png"
+    },
+    {
+      "id": "make-pillow",
+      "localPath": "MadeRoom/Resources/EditorialAssets/make-pillow.png",
+      "sha256": "99aa9ddd4099a312108b51dba14198b711d99deecfa7d1f5eadb3f0cbbf81077",
+      "byteCount": 11162,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/99aa9ddd4099a312/make-pillow.png",
+      "hostingPath": "editorial/99aa9ddd4099a312/make-pillow.png"
+    },
+    {
+      "id": "make-flowers",
+      "localPath": "MadeRoom/Resources/EditorialAssets/make-flowers.png",
+      "sha256": "a235719ed35fe5dd6bad231db063e90866f2d7b2e825dcd7c0fea29d1cd44def",
+      "byteCount": 12740,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/a235719ed35fe5dd/make-flowers.png",
+      "hostingPath": "editorial/a235719ed35fe5dd/make-flowers.png"
+    },
+    {
+      "id": "room-hero",
+      "localPath": "MadeRoom/Resources/EditorialAssets/room-hero.png",
+      "sha256": "c9ec87f88cf8d1bfb6deb05eab28fe132f2fce4f41c18a5cd1a357c02e070a3f",
+      "byteCount": 114376,
+      "contentType": "image/png",
+      "knowledgeIds": [],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/c9ec87f88cf8d1bf/room-hero.png",
+      "hostingPath": "editorial/c9ec87f88cf8d1bf/room-hero.png"
+    },
+    {
+      "id": "craft-embroidery-running-stitch",
+      "localPath": "MadeRoom/Resources/EditorialAssets/craft-embroidery-running-stitch.png",
+      "sha256": "447897f3955978191459ea6f580a3264de40e309285cd24043dcfb24117f04d8",
+      "byteCount": 3003307,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "embroidery-running-stitch"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/447897f395597819/craft-embroidery-running-stitch.png",
+      "hostingPath": "editorial/447897f395597819/craft-embroidery-running-stitch.png",
+      "provenance": "AI-generated editorial cover; not a step-by-step instructional diagram"
+    },
+    {
+      "id": "craft-embroidery-backstitch",
+      "localPath": "MadeRoom/Resources/EditorialAssets/craft-embroidery-backstitch.png",
+      "sha256": "517337560cfbfe3150a4398dc3e36237769bec81e62495391a8604ad7f906daa",
+      "byteCount": 3218890,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "embroidery-backstitch"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/517337560cfbfe31/craft-embroidery-backstitch.png",
+      "hostingPath": "editorial/517337560cfbfe31/craft-embroidery-backstitch.png",
+      "provenance": "AI-generated editorial cover; not a step-by-step instructional diagram"
+    },
+    {
+      "id": "craft-embroidery-satin-fill",
+      "localPath": "MadeRoom/Resources/EditorialAssets/craft-embroidery-satin-fill.png",
+      "sha256": "5624fa7b22f183cfb9d2f68b2e5e896a441fc63e142584d1d487d3a38bcd8d53",
+      "byteCount": 3014320,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "embroidery-satin-fill"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/5624fa7b22f183cf/craft-embroidery-satin-fill.png",
+      "hostingPath": "editorial/5624fa7b22f183cf/craft-embroidery-satin-fill.png",
+      "provenance": "AI-generated editorial cover; not a step-by-step instructional diagram"
+    },
+    {
+      "id": "craft-embroidery-split-outline",
+      "localPath": "MadeRoom/Resources/EditorialAssets/craft-embroidery-split-outline.png",
+      "sha256": "62ef483d31a1d27c428871bf6b3936ca3f33a06a7e86faec1c93331bcbe662ef",
+      "byteCount": 2983416,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "embroidery-split-outline"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/62ef483d31a1d27c/craft-embroidery-split-outline.png",
+      "hostingPath": "editorial/62ef483d31a1d27c/craft-embroidery-split-outline.png",
+      "provenance": "AI-generated editorial cover; not a step-by-step instructional diagram"
+    },
+    {
+      "id": "craft-crochet-foundation-chain",
+      "localPath": "MadeRoom/Resources/EditorialAssets/craft-crochet-foundation-chain.png",
+      "sha256": "e632b9b4cdda83b20ce60d18231248884358932f042337f2fe301a8201b3fd99",
+      "byteCount": 3436188,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "crochet-foundation-chain"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/e632b9b4cdda83b2/craft-crochet-foundation-chain.png",
+      "hostingPath": "editorial/e632b9b4cdda83b2/craft-crochet-foundation-chain.png",
+      "provenance": "AI-generated editorial cover; not a step-by-step instructional diagram"
+    },
+    {
+      "id": "craft-crochet-single-crochet",
+      "localPath": "MadeRoom/Resources/EditorialAssets/craft-crochet-single-crochet.png",
+      "sha256": "ed3123e1d3c8be5d60690ec3d51a80a2fef57b9b0ddbcf74d7f7372e1437706a",
+      "byteCount": 3447524,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "crochet-single-crochet"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/ed3123e1d3c8be5d/craft-crochet-single-crochet.png",
+      "hostingPath": "editorial/ed3123e1d3c8be5d/craft-crochet-single-crochet.png",
+      "provenance": "AI-generated editorial cover; not a step-by-step instructional diagram"
+    },
+    {
+      "id": "craft-crochet-slip-stitch",
+      "localPath": "MadeRoom/Resources/EditorialAssets/craft-crochet-slip-stitch.png",
+      "sha256": "52f3dc43f871635d1a5700631b4ed8e6185170045b39b51db2b07dc7e7671320",
+      "byteCount": 3100467,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "crochet-slip-stitch"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/52f3dc43f871635d/craft-crochet-slip-stitch.png",
+      "hostingPath": "editorial/52f3dc43f871635d/craft-crochet-slip-stitch.png",
+      "provenance": "AI-generated editorial cover; not a step-by-step instructional diagram"
+    },
+    {
+      "id": "craft-knitting-gauge-swatch",
+      "localPath": "MadeRoom/Resources/EditorialAssets/craft-knitting-gauge-swatch.png",
+      "sha256": "df2b193efb8cb23f624fc513317df76bc910749068c9401a9888d36f46ee31cd",
+      "byteCount": 3508599,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "knitting-gauge-swatch"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/df2b193efb8cb23f/craft-knitting-gauge-swatch.png",
+      "hostingPath": "editorial/df2b193efb8cb23f/craft-knitting-gauge-swatch.png",
+      "provenance": "AI-generated editorial cover; not a step-by-step instructional diagram"
+    },
+    {
+      "id": "craft-yarn-weight-labels",
+      "localPath": "MadeRoom/Resources/EditorialAssets/craft-yarn-weight-labels.png",
+      "sha256": "9183a989c65e28a916390744f5be47a39c7aae3c773a0b08cd03a25219718652",
+      "byteCount": 3013654,
+      "contentType": "image/png",
+      "knowledgeIds": [
+        "yarn-weight-labels"
+      ],
+      "uploadStatus": "verified",
+      "downloadURL": "https://made-room-20261009.web.app/editorial/9183a989c65e28a9/craft-yarn-weight-labels.png",
+      "hostingPath": "editorial/9183a989c65e28a9/craft-yarn-weight-labels.png",
+      "provenance": "AI-generated editorial cover; not a step-by-step instructional diagram"
+    }
+  ],
+  "provider": "Firebase Hosting"
+}

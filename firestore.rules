@@ -1,0 +1,307 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Public discussion to authenticated users; no email addresses or private profiles.
+    // Comments are append-only. Same document ID may only be retried unchanged.
+    function signedIn() { return request.auth != null; }
+    function knownKnowledge(id) {
+      return visibleCommunityDiscussion(id) || id in ['woven-wall-hanging', 'clay-catchall', 'woven-storage-baskets',
+        'weaving-basics', 'woven-placemats', 'softer-reading-corner',
+        'woven-reading-corner', 'one-shelf-handmade', 'weaving-even-edges',
+        'weaving-warp-spacing', 'embroidery-running-stitch', 'embroidery-backstitch',
+        'clay-indoor-care', 'clay-workspace-storage',
+        'embroidery-satin-fill',
+        'embroidery-split-outline',
+        'crochet-foundation-chain',
+        'crochet-single-crochet',
+        'crochet-slip-stitch',
+        'knitting-gauge-swatch',
+        'yarn-weight-labels',
+        'clay-drying-check',
+        'clay-prevent-cracks',
+        'clay-paint-test'];
+    }
+    function visibleCommunityDiscussion(id) {
+      let editorial = id.replace('^community:', '');
+      let member = id.replace('^member:', '');
+      return (id.matches('^community:[A-Za-z0-9_-]+$')
+          && exists(/databases/$(database)/documents/communityPosts/$(editorial)))
+        || (id.matches('^member:[A-Za-z0-9_-]+$')
+          && exists(/databases/$(database)/documents/memberPosts/$(member))
+          && (get(/databases/$(database)/documents/memberPosts/$(member)).data.visibility == 'public'
+            || get(/databases/$(database)/documents/memberPosts/$(member)).data.authorUID == request.auth.uid));
+    }
+    function validParent(k, parent) {
+      return parent == null || (parent is string && parent.size() <= 128
+        && parent.matches('^[A-Za-z0-9_-]+$')
+        && ((k == 'woven-reading-corner' && parent in ['tessa', 'elena', 'priya'])
+          || (exists(/databases/$(database)/documents/knowledge/$(k)/comments/$(parent))
+            && get(/databases/$(database)/documents/knowledge/$(k)/comments/$(parent)).data.parentID == null)));
+    }
+    function validComment(k) {
+      let d = request.resource.data;
+      return d.keys().hasAll(['knowledgeID', 'authorUID', 'authorName', 'text', 'parentID', 'replyTo', 'createdAt'])
+        && d.keys().hasOnly(['knowledgeID', 'authorUID', 'authorName', 'text', 'parentID', 'replyTo', 'createdAt'])
+        && d.knowledgeID == k && d.knowledgeID is string && d.knowledgeID.size() <= 80
+        && d.authorUID == request.auth.uid && d.authorUID is string && d.authorUID.size() <= 128
+        && d.authorName is string && d.authorName.size() > 0 && d.authorName.size() <= 80
+        && d.text is string && d.text.size() > 0 && d.text.size() <= 2000 && d.text.matches('(?s).*[^\\s].*')
+        && (d.replyTo == null || (d.replyTo is string && d.replyTo.size() <= 80))
+        && validParent(k, d.parentID)
+        && d.createdAt is timestamp;
+    }
+    // Private profile, including a <=96 KiB JPEG thumbnail. No client-wide listing.
+    function validProfile(uid) {
+      let d = request.resource.data;
+      return d.keys().hasAll(['uid', 'displayName', 'username', 'biography', 'location', 'avatar', 'revision', 'updatedAt'])
+        && d.keys().hasOnly(['uid', 'displayName', 'username', 'biography', 'location', 'avatar', 'revision', 'updatedAt'])
+        && d.uid == uid && d.uid == request.auth.uid
+        && d.displayName is string && d.displayName.size() > 0 && d.displayName.size() <= 80
+        && d.displayName.matches('.*[^\\s].*')
+        && d.username is string && d.username.matches('^[A-Za-z0-9_][A-Za-z0-9_.]{2,29}$')
+        && d.biography is string && d.biography.size() <= 500
+        && d.location is string && d.location.size() <= 120
+        && (d.avatar == null || (d.avatar is bytes && d.avatar.size() <= 98304))
+        && d.revision is string && d.revision.size() > 0 && d.revision.size() <= 64
+        && d.updatedAt == request.time;
+    }
+    match /users/{uid} {
+      allow get: if signedIn() && request.auth.uid == uid;
+      allow list, delete: if false;
+      allow create, update: if signedIn() && request.auth.uid == uid && validProfile(uid);
+    }
+    function validSpace(uid) {
+      let d = request.resource.data;
+      return d.keys().hasAll(['uid','name','notes','piecesJSON','planJSON','beforePhoto','afterPhoto','deleted','revision','updatedAt'])
+        && d.keys().hasOnly(['uid','name','notes','piecesJSON','planJSON','beforePhoto','afterPhoto','deleted','revision','updatedAt'])
+        && d.uid == uid && d.uid == request.auth.uid
+        && d.name is string && d.name.size() > 0 && d.name.size() <= 80 && d.name.matches('.*[^\\s].*')
+        && d.notes is string && d.notes.size() <= 4000
+        && d.piecesJSON is string && d.piecesJSON.size() <= 100000
+        && d.planJSON is string && d.planJSON.size() <= 10000
+        && (d.beforePhoto == null || (d.beforePhoto is bytes && d.beforePhoto.size() <= 196608))
+        && (d.afterPhoto == null || (d.afterPhoto is bytes && d.afterPhoto.size() <= 196608))
+        && d.deleted is bool
+        && d.revision is string && d.revision.size() > 0 && d.revision.size() <= 64
+        && d.updatedAt == request.time;
+    }
+    match /users/{uid}/spaces/{spaceID} {
+      allow read: if signedIn() && request.auth.uid == uid;
+      allow create, update: if signedIn() && request.auth.uid == uid
+        && spaceID.matches('^[A-Za-z0-9_-]{1,128}$') && validSpace(uid);
+      // Tombstones retain deletion across offline clients.
+      allow delete: if false;
+    }
+    function validCircleMembership(uid, circleID) {
+      let d = request.resource.data;
+      return circleID in ['craft', 'small-spaces', 'weaving']
+        && d.keys().hasAll(['uid', 'circleID', 'joined', 'updatedAt'])
+        && d.keys().hasOnly(['uid', 'circleID', 'joined', 'updatedAt'])
+        && d.uid == uid && d.uid == request.auth.uid
+        && d.circleID == circleID
+        && d.joined is bool && d.updatedAt == request.time;
+    }
+    match /users/{uid}/circles/{circleID} {
+      allow get: if signedIn() && request.auth.uid == uid;
+      allow list: if signedIn() && request.auth.uid == uid && request.query.limit <= 10;
+      allow create, update: if signedIn() && request.auth.uid == uid && validCircleMembership(uid, circleID);
+      allow delete: if false;
+    }
+    // Public identity is deliberately separate from private account/profile data.
+    match /publicProfiles/{uid} {
+      allow read: if signedIn();
+      allow create, update: if signedIn() && request.auth.uid == uid
+        && request.resource.data.keys().hasAll(['uid','displayName','biography','avatarID','isExample'])
+        && request.resource.data.keys().hasOnly(['uid','displayName','biography','avatarID','isExample'])
+        && request.resource.data.uid == uid
+        && request.resource.data.displayName is string && request.resource.data.displayName.size() > 0 && request.resource.data.displayName.size() <= 80
+        && request.resource.data.biography is string && request.resource.data.biography.size() <= 500
+        && request.resource.data.avatarID == 'studio' && request.resource.data.isExample == false
+        && (!exists(/databases/$(database)/documents/publicProfiles/$(uid)) || resource.data.isExample == false);
+      allow delete: if false;
+    }
+    match /socialFollows/{edgeID} {
+      allow read: if signedIn();
+      allow create: if signedIn()
+        && request.resource.data.keys().hasOnly(['followerUID','followingUID','createdAt'])
+        && request.resource.data.followerUID == request.auth.uid
+        && request.resource.data.followingUID is string
+        && request.resource.data.followingUID != request.auth.uid
+        && notBlocked(request.auth.uid, request.resource.data.followingUID)
+        && edgeID == request.auth.uid + ':' + request.resource.data.followingUID
+        && exists(/databases/$(database)/documents/publicProfiles/$(request.resource.data.followingUID))
+        && exists(/databases/$(database)/documents/publicProfiles/$(request.auth.uid))
+        && request.resource.data.createdAt == request.time;
+      allow delete: if signedIn() && resource.data.followerUID == request.auth.uid;
+      allow update: if false;
+    }
+    function validMemberPost(postID) {
+      let d = request.resource.data;
+      return d.keys().hasAll(['id','authorUID','authorName','title','body','photoData','visibility','createdAt'])
+        && d.keys().hasOnly(['id','authorUID','authorName','title','body','photoData','visibility','createdAt'])
+        && d.id == postID && postID.matches('^[A-Za-z0-9_-]{1,128}$')
+        && d.authorUID == request.auth.uid
+        && d.authorName == get(/databases/$(database)/documents/publicProfiles/$(request.auth.uid)).data.displayName
+        && d.title is string && d.title.size() > 0 && d.title.size() <= 120 && d.title.matches('.*[^\\s].*')
+        && d.body is string && d.body.size() > 0 && d.body.size() <= 4000 && d.body.matches('(?s).*[^\\s].*')
+        && (d.photoData == null || (d.photoData is bytes && d.photoData.size() <= 196608))
+        && d.visibility in ['public','private'] && d.createdAt == request.time;
+    }
+    match /memberPosts/{postID} {
+      allow get: if signedIn() && (!exists(/databases/$(database)/documents/memberPosts/$(postID))
+        || resource.data.visibility == 'public' || resource.data.authorUID == request.auth.uid);
+      allow list: if signedIn() && request.query.limit <= 50
+        && (resource.data.visibility == 'public' || resource.data.authorUID == request.auth.uid);
+      allow create: if signedIn() && validMemberPost(postID);
+      allow update: if false;
+      allow delete: if signedIn() && resource.data.authorUID == request.auth.uid;
+    }
+    match /communityPosts/{postID} {
+      allow get: if signedIn();
+      allow list: if signedIn() && request.query.limit <= 100;
+      allow write: if false;
+    }
+    // Editorial knowledge is published by the trusted deployment tool only.
+    match /knowledge/{knowledgeID} {
+      allow get: if signedIn();
+      allow list: if signedIn() && request.query.limit <= 100;
+      allow write: if false;
+    }
+    match /knowledge/{knowledgeID}/comments/{commentID} {
+      allow get: if signedIn() && knownKnowledge(knowledgeID);
+      allow list: if signedIn() && knownKnowledge(knowledgeID) && request.query.limit <= 50;
+      allow create: if signedIn() && knownKnowledge(knowledgeID)
+        && commentID.matches('^[A-Za-z0-9_-]{1,128}$')
+        && validComment(knowledgeID) && participate(knowledgeID) && request.resource.data.createdAt == request.time;
+      allow update: if signedIn() && knownKnowledge(knowledgeID) && resource.data.authorUID == request.auth.uid
+        && validComment(knowledgeID) && request.resource.data == resource.data;
+      allow delete: if false;
+    }
+    function notBlocked(a,b) {
+      return a == b || ((!exists(/databases/$(database)/documents/users/$(a)/blocks/$(b))
+          || !get(/databases/$(database)/documents/users/$(a)/blocks/$(b)).data.active)
+        && (!exists(/databases/$(database)/documents/users/$(b)/blocks/$(a))
+          || !get(/databases/$(database)/documents/users/$(b)/blocks/$(a)).data.active));
+    }
+    function discussionOwner(k,uid) {
+      return (k.matches('^community:[A-Za-z0-9_-]+$') && get(/databases/$(database)/documents/communityPosts/$(k.replace('^community:',''))).data.authorUID == uid)
+        || (k.matches('^member:[A-Za-z0-9_-]+$') && get(/databases/$(database)/documents/memberPosts/$(k.replace('^member:',''))).data.authorUID == uid);
+    }
+    function participate(k) {
+      return (!k.matches('^(community|member):.*'))
+        || (k.matches('^community:.*') && notBlocked(request.auth.uid,get(/databases/$(database)/documents/communityPosts/$(k.replace('^community:',''))).data.authorUID))
+        || (k.matches('^member:.*') && notBlocked(request.auth.uid,get(/databases/$(database)/documents/memberPosts/$(k.replace('^member:',''))).data.authorUID));
+    }
+    function visibleTarget(p) {
+      return (p.matches('^(communityPosts|publicProfiles)/[A-Za-z0-9_-]+$') && exists(path('/databases/' + database + '/documents/' + p)))
+        || (p.matches('^memberPosts/[A-Za-z0-9_-]+$') && exists(path('/databases/' + database + '/documents/' + p))
+          && (get(path('/databases/' + database + '/documents/' + p)).data.visibility == 'public' || get(path('/databases/' + database + '/documents/' + p)).data.authorUID == request.auth.uid))
+        || (p.matches('^knowledge/[A-Za-z0-9_:-]+/comments/[A-Za-z0-9_-]+$') && knownKnowledge(p.split('/')[1]) && exists(path('/databases/' + database + '/documents/' + p)));
+    }
+    match /users/{uid}/library/{itemID} {
+      allow read: if signedIn() && request.auth.uid == uid;
+      allow create, update: if signedIn() && request.auth.uid == uid
+        && request.resource.data.keys().hasAll(['uid','kind','payload','photo','deleted','revision','updatedAt'])
+        && request.resource.data.keys().hasOnly(['uid','kind','payload','photo','deleted','revision','updatedAt'])
+        && request.resource.data.uid == uid
+        && request.resource.data.kind in ['project','photo','saved','collection','preferences']
+        && request.resource.data.payload is string && request.resource.data.payload.size() <= 400000
+        && (request.resource.data.photo == null || (request.resource.data.kind == 'photo' && request.resource.data.photo is bytes && request.resource.data.photo.size() <= 196608))
+        && request.resource.data.deleted is bool
+        && request.resource.data.revision is string && request.resource.data.revision.size() > 0 && request.resource.data.revision.size() <= 64
+        && request.resource.data.updatedAt == request.time;
+      allow delete: if false;
+    }
+    match /users/{uid}/blocks/{target} {
+      allow read: if signedIn() && request.auth.uid == uid;
+      allow create, update: if signedIn() && request.auth.uid == uid && target != uid
+        && exists(/databases/$(database)/documents/publicProfiles/$(target))
+        && request.resource.data.keys().hasAll(['uid','targetUID','active','updatedAt'])
+        && request.resource.data.keys().hasOnly(['uid','targetUID','active','updatedAt'])
+        && request.resource.data.uid == uid && request.resource.data.targetUID == target
+        && request.resource.data.active is bool && request.resource.data.updatedAt == request.time;
+    }
+    function validLike(uid,p) {
+      return signedIn() && request.auth.uid == uid && visibleTarget(p)
+        && notBlocked(uid,get(path('/databases/' + database + '/documents/' + p)).data.authorUID)
+        && request.resource.data.keys().hasAll(['authorUID','createdAt']) && request.resource.data.keys().hasOnly(['authorUID','createdAt'])
+        && request.resource.data.authorUID == uid && request.resource.data.createdAt == request.time;
+    }
+    match /memberPosts/{id}/likes/{uid} {
+      allow read: if signedIn() && visibleTarget('memberPosts/' + id);
+      allow create: if validLike(uid,'memberPosts/' + id);
+      allow delete: if signedIn() && request.auth.uid == uid;
+    }
+    match /communityPosts/{id}/likes/{uid} {
+      allow read: if signedIn() && visibleTarget('communityPosts/' + id);
+      allow create: if validLike(uid,'communityPosts/' + id);
+      allow delete: if signedIn() && request.auth.uid == uid;
+    }
+    match /knowledge/{k}/comments/{c}/likes/{uid} {
+      allow read: if signedIn() && knownKnowledge(k) && exists(/databases/$(database)/documents/knowledge/$(k)/comments/$(c));
+      allow create: if participate(k) && validLike(uid,'knowledge/' + k + '/comments/' + c);
+      allow delete: if signedIn() && request.auth.uid == uid;
+    }
+    match /reports/{id} {
+      allow get: if signedIn() && (!exists(/databases/$(database)/documents/reports/$(id)) || resource.data.reporterUID == request.auth.uid);
+      allow list: if signedIn() && resource.data.reporterUID == request.auth.uid && request.query.limit <= 50;
+      allow create: if signedIn()
+        && request.resource.data.keys().hasAll(['reporterUID','targetPath','reason','details','kind','status','createdAt'])
+        && request.resource.data.keys().hasOnly(['reporterUID','targetPath','reason','details','kind','status','createdAt'])
+        && request.resource.data.reporterUID == request.auth.uid && visibleTarget(request.resource.data.targetPath)
+        && request.resource.data.reason in ['Spam','Harassment','Other']
+        && request.resource.data.details is string && request.resource.data.details.size() <= 4000
+        && request.resource.data.kind in ['report','appeal']
+        && (request.resource.data.kind == 'report' || (request.resource.data.targetPath.matches('^memberPosts/.*') && get(path('/databases/' + database + '/documents/' + request.resource.data.targetPath)).data.authorUID == request.auth.uid))
+        && request.resource.data.status == 'submitted' && request.resource.data.createdAt == request.time;
+    }
+    match /challenges/{id} { allow read: if signedIn(); }
+    match /users/{uid}/challenges/{id} {
+      allow read: if signedIn() && request.auth.uid == uid;
+      allow create, update: if signedIn() && request.auth.uid == uid && id == 'one-shelf'
+        && request.resource.data.keys().hasAll(['uid','joined','updatedAt']) && request.resource.data.keys().hasOnly(['uid','joined','updatedAt'])
+        && request.resource.data.uid == uid && request.resource.data.joined is bool && request.resource.data.updatedAt == request.time;
+    }
+    match /challenges/{id}/submissions/{uid} {
+      allow get: if signedIn() && request.auth.uid == uid;
+      allow list: if signedIn() && resource.data.uid == request.auth.uid && request.query.limit <= 50;
+      allow create, update: if signedIn() && request.auth.uid == uid && id == 'one-shelf'
+        && request.resource.data.keys().hasAll(['uid','challengeID','projectID','title','caption','photo','status','createdAt','updatedAt'])
+        && request.resource.data.keys().hasOnly(['uid','challengeID','projectID','title','caption','photo','status','createdAt','updatedAt'])
+        && request.resource.data.uid == uid && request.resource.data.challengeID == id
+        && request.resource.data.projectID is string
+        && (request.resource.data.status == 'withdrawn' || get(/databases/$(database)/documents/users/$(uid)/challenges/$(id)).data.joined)
+        && ((request.resource.data.status == 'withdrawn' && exists(/databases/$(database)/documents/challenges/$(id)/submissions/$(uid))) || (exists(/databases/$(database)/documents/users/$(uid)/library/$('project-' + request.resource.data.projectID))
+          && !get(/databases/$(database)/documents/users/$(uid)/library/$('project-' + request.resource.data.projectID)).data.deleted))
+        && request.resource.data.title is string && request.resource.data.title.size() > 0 && request.resource.data.title.size() <= 120
+        && request.resource.data.caption is string && request.resource.data.caption.size() <= 4000
+        && (request.resource.data.photo == null || (request.resource.data.photo is bytes && request.resource.data.photo.size() <= 196608))
+        && request.resource.data.status in ['submitted','withdrawn'] && request.resource.data.updatedAt == request.time
+        && ((!exists(/databases/$(database)/documents/challenges/$(id)/submissions/$(uid)) && request.resource.data.createdAt == request.time)
+          || request.resource.data.createdAt == resource.data.createdAt);
+    }
+    function validInbox(uid,id) {
+      let d=request.resource.data;
+      let source=getAfter(path('/databases/' + database + '/documents/' + d.sourcePath)).data;
+      return d.keys().hasAll(['actorUID','recipientUID','kind','sourcePath','createdAt','read'])
+        && d.keys().hasOnly(['actorUID','recipientUID','kind','sourcePath','createdAt','read'])
+        && d.actorUID == request.auth.uid && d.recipientUID == uid && d.read == false && d.createdAt == request.time
+        && id == d.kind + ':' + d.sourcePath.replace('/','~') + ':' + uid
+        && notBlocked(d.actorUID,uid)
+        && ((d.kind == 'follow' && d.sourcePath == 'socialFollows/' + d.actorUID + ':' + uid && source.followerUID == d.actorUID && source.followingUID == uid && source.createdAt == request.time)
+          || (d.kind == 'like' && d.sourcePath.matches('^(memberPosts|communityPosts)/[A-Za-z0-9_-]+/likes/' + d.actorUID + '$|^knowledge/[A-Za-z0-9_:-]+/comments/[A-Za-z0-9_-]+/likes/' + d.actorUID + '$')
+            && source.authorUID == d.actorUID && source.createdAt == request.time && get(path('/databases/' + database + '/documents/' + d.sourcePath.replace('/likes/[^/]+$',''))).data.authorUID == uid)
+          || (d.kind == 'comment' && d.sourcePath.matches('^knowledge/[A-Za-z0-9_:-]+/comments/[A-Za-z0-9_-]+$') && source.authorUID == d.actorUID && source.createdAt == request.time
+            && (discussionOwner(source.knowledgeID,uid) || (source.parentID != null && get(/databases/$(database)/documents/knowledge/$(source.knowledgeID)/comments/$(source.parentID)).data.authorUID == uid)))
+          || (d.kind == 'challenge' && uid == d.actorUID && d.sourcePath == 'challenges/one-shelf/submissions/' + uid && source.uid == uid && source.updatedAt == request.time));
+    }
+    match /users/{uid}/inbox/{id} {
+      allow get: if signedIn() && request.auth.uid == uid;
+      allow list: if signedIn() && request.auth.uid == uid && request.query.limit <= 100;
+      allow create: if signedIn() && validInbox(uid,id);
+      allow update: if signedIn() && ((request.auth.uid == uid && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['read']) && request.resource.data.read is bool)
+        || validInbox(uid,id));
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "109F1AF3-9730-4CC8-AC0C-374ABA2A415A.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Tab-P01_0_14DE4653-43C5-465E-A22B-141F292D249E.png",
+        "timestamp" : 1790585514.005
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "D2D8FFB7-BB6C-4390-8868-4A4BB79E9FFE.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Tab-C01_0_DD0F2AAD-EF0D-4AB5-820A-B65E08D73EC8.png",
+        "timestamp" : 1790585511.595
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "F5C6DE76-1744-41F0-9E63-23C2BCF414C7.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Tab-S01_0_1EC4A5CF-2953-489D-BC96-EB2A27125C7E.png",
+        "timestamp" : 1790585509.197
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "D54BD466-2068-4B66-9289-8B9DEAEE0CEA.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Tab-M01_0_B3E61535-42AA-4229-9352-D679798F37F4.png",
+        "timestamp" : 1790585506.72
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "A890296C-F99B-4E4D-8D0B-D29D73309FD6.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Tab-D01_0_0F3EE742-5BBD-4342-94E6-B37D53229DAE.png",
+        "timestamp" : 1790585504.314
+      }
+    ],
+    "testIdentifier" : "MadeRoomUITests/testTabIconStatesAndTouchTargets()",
+    "testIdentifierURL" : "test://com.apple.xcode/MadeRoom/MadeRoomUITests/MadeRoomUITests/testTabIconStatesAndTouchTargets"
+  }
+]

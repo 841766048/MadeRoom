@@ -1,0 +1,26 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "127867DC-46B8-4AD0-8D16-18041B4323C7.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Dialog-Menu_0_1A6C3589-3D61-4770-9539-3A4A2DFA7BED.png",
+        "timestamp" : 1790591754.599
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "5A39E37D-3B0C-4D75-8A94-6521F36FADE1.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Dialog-Delete_0_6C8BE3FD-B318-4AE1-A150-909C44EEC909.png",
+        "timestamp" : 1790591747.573
+      }
+    ],
+    "testIdentifier" : "MadeRoomUITests/testDesignedDialogCancellationAndSelection()",
+    "testIdentifierURL" : "test://com.apple.xcode/MadeRoom/MadeRoomUITests/MadeRoomUITests/testDesignedDialogCancellationAndSelection"
+  }
+]

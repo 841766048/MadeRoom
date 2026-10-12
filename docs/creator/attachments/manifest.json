@@ -1,0 +1,26 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "647CCE46-2525-431B-81CC-086B34C57A52.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Connections_0_A2D3FF0B-EB33-4DEA-AF81-AA8A36A4CED6.png",
+        "timestamp" : 1790651502.645
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "953416DB-6315-4E9C-8ABB-8A60DAA2B0FA.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Creator_0_3422FFA0-A3E1-40FF-A7E3-6838F8F595DF.png",
+        "timestamp" : 1790651500.375
+      }
+    ],
+    "testIdentifier" : "MadeRoomUITests/testCreatorLayoutAndIndependentFollowing()",
+    "testIdentifierURL" : "test://com.apple.xcode/MadeRoom/MadeRoomUITests/MadeRoomUITests/testCreatorLayoutAndIndependentFollowing"
+  }
+]

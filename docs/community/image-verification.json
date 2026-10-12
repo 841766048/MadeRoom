@@ -1,0 +1,72 @@
+[
+  {
+    "id": "studio-basket-reset",
+    "imageID": "search-baskets",
+    "url": "https://made-room-20261009.web.app/editorial/6d2652c5c1df2377/search-baskets.png",
+    "sha256Verified": true,
+    "bytes": 18934
+  },
+  {
+    "id": "studio-quiet-place-setting",
+    "imageID": "search-placemats",
+    "url": "https://made-room-20261009.web.app/editorial/399e510f4f4c95dd/search-placemats.png",
+    "sha256Verified": true,
+    "bytes": 20756
+  },
+  {
+    "id": "studio-shelf-pause",
+    "imageID": "make-shelf",
+    "url": "https://made-room-20261009.web.app/editorial/ee29db90b08546c6/make-shelf.png",
+    "sha256Verified": true,
+    "bytes": 26146
+  },
+  {
+    "id": "studio-vase-still-life",
+    "imageID": "creator-vase",
+    "url": "https://made-room-20261009.web.app/editorial/eafee7891047151a/creator-vase.png",
+    "sha256Verified": true,
+    "bytes": 31623
+  },
+  {
+    "id": "studio-soft-seat",
+    "imageID": "make-pillow",
+    "url": "https://made-room-20261009.web.app/editorial/99aa9ddd4099a312/make-pillow.png",
+    "sha256Verified": true,
+    "bytes": 11162
+  },
+  {
+    "id": "studio-little-flower-pause",
+    "imageID": "make-flowers",
+    "url": "https://made-room-20261009.web.app/editorial/a235719ed35fe5dd/make-flowers.png",
+    "sha256Verified": true,
+    "bytes": 12740
+  },
+  {
+    "id": "studio-running-stitch-pause",
+    "imageID": "craft-embroidery-running-stitch",
+    "url": "https://made-room-20261009.web.app/editorial/447897f395597819/craft-embroidery-running-stitch.png",
+    "sha256Verified": true,
+    "bytes": 3003307
+  },
+  {
+    "id": "studio-outlined-leaf",
+    "imageID": "craft-embroidery-split-outline",
+    "url": "https://made-room-20261009.web.app/editorial/62ef483d31a1d27c/craft-embroidery-split-outline.png",
+    "sha256Verified": true,
+    "bytes": 2983416
+  },
+  {
+    "id": "studio-first-crochet-square",
+    "imageID": "craft-crochet-single-crochet",
+    "url": "https://made-room-20261009.web.app/editorial/ed3123e1d3c8be5d/craft-crochet-single-crochet.png",
+    "sha256Verified": true,
+    "bytes": 3447524
+  },
+  {
+    "id": "studio-swatch-journal",
+    "imageID": "craft-knitting-gauge-swatch",
+    "url": "https://made-room-20261009.web.app/editorial/df2b193efb8cb23f/craft-knitting-gauge-swatch.png",
+    "sha256Verified": true,
+    "bytes": 3508599
+  }
+]

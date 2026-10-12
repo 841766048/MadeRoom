@@ -1,0 +1,95 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "1305B548-0977-42D4-9652-88C690F77B4A.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Chinese-C04_0_A79FBDE0-0B3B-4815-9D37-2D9109D8BD3D.png",
+        "timestamp" : 1790654167.132
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "CA2A7BD5-A2BA-4A02-BA28-BD01F7868CA3.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Chinese-X03_0_E8E46551-156B-4474-B0A5-F7060150E6FF.png",
+        "timestamp" : 1790654162.409
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "5A4BCA0D-C1BC-4686-B920-CE4C90148CFD.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Chinese-M02_0_3C5899B7-8D9B-4B94-8780-7EADE9D94B44.png",
+        "timestamp" : 1790654157.889
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "25DA7B26-E07B-43E9-99D3-C22630423F0F.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Chinese-P04_0_8EAB89DA-1E6C-48D4-9721-00F027A773AB.png",
+        "timestamp" : 1790654153.275
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "6B532CFE-3942-4FC2-8175-0692FE62C44E.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Chinese-P03_0_27BE659B-3251-4BD8-9BF8-21133209B931.png",
+        "timestamp" : 1790654148.762
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "245B9BBB-82B1-4C9D-9236-D6C0F665214E.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Chinese-D04_0_2A4C53FC-0FA6-4013-A79A-B820C39DA819.png",
+        "timestamp" : 1790654144.099
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "9E63DC20-C039-4900-9523-5DFCA953390B.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Chinese-C06_0_BF37F4FC-DA01-4A6F-BF90-C352D211B63E.png",
+        "timestamp" : 1790654136.184
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "0BEDC004-B082-46FF-A2A8-93BD26AED4F2.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Chinese-C05_0_9D99B3F3-557A-4293-993B-C485B214C509.png",
+        "timestamp" : 1790654131.58
+      }
+    ],
+    "testIdentifier" : "MadeRoomUITests/testChineseCoverageAcrossFeatureScreens()",
+    "testIdentifierURL" : "test://com.apple.xcode/MadeRoom/MadeRoomUITests/MadeRoomUITests/testChineseCoverageAcrossFeatureScreens"
+  },
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CD567493-645A-46D1-8E80-C4A17441AEAC",
+        "deviceName" : "iPhone 17 Pro",
+        "exportedFileName" : "256DDBA7-21C6-46E6-A686-BF3F82604569.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Language-Chinese_0_F49A0533-A8C7-46E8-AA8E-263C42BD6D8D.png",
+        "timestamp" : 1790654176.806
+      }
+    ],
+    "testIdentifier" : "MadeRoomUITests/testLanguageSwitchPersistsAndUpdatesNavigation()",
+    "testIdentifierURL" : "test://com.apple.xcode/MadeRoom/MadeRoomUITests/MadeRoomUITests/testLanguageSwitchPersistsAndUpdatesNavigation"
+  }
+]

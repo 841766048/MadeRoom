@@ -1,0 +1,851 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "items": [
+    {
+      "id": "woven-wall-hanging",
+      "title": "Woven wall hanging",
+      "summary": "A modern texture for any space.",
+      "language": "en",
+      "kind": "tutorial",
+      "estimatedMinutes": 90,
+      "imageIds": [
+        "weave"
+      ],
+      "materials": [
+        "Cotton rope",
+        "Wool yarn",
+        "Wooden dowel",
+        "Scissors"
+      ],
+      "steps": [
+        "Cut your cords",
+        "Prepare the dowel",
+        "Tie the first row",
+        "Add more rows",
+        "Trim the fringe",
+        "Finish and hang"
+      ],
+      "tips": [
+        "Keep each knot loose enough to adjust. Check the row before tightening, then trim the fringe after hanging."
+      ],
+      "sources": []
+    },
+    {
+      "id": "clay-catchall",
+      "title": "Clay catchall",
+      "summary": "A small piece, a calmer day.",
+      "language": "en",
+      "kind": "idea",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "pottery"
+      ],
+      "materials": [],
+      "steps": [],
+      "tips": [],
+      "sources": []
+    },
+    {
+      "id": "woven-storage-baskets",
+      "title": "Woven storage baskets",
+      "summary": "Simple, useful, beautiful.",
+      "language": "en",
+      "kind": "idea",
+      "estimatedMinutes": 120,
+      "imageIds": [
+        "search-baskets"
+      ],
+      "materials": [],
+      "steps": [],
+      "tips": [],
+      "sources": []
+    },
+    {
+      "id": "weaving-basics",
+      "title": "Weaving basics",
+      "summary": "Learn the fundamentals at home.",
+      "language": "en",
+      "kind": "idea",
+      "estimatedMinutes": 60,
+      "imageIds": [
+        "search-basics"
+      ],
+      "materials": [],
+      "steps": [],
+      "tips": [],
+      "sources": []
+    },
+    {
+      "id": "woven-placemats",
+      "title": "Woven placemats",
+      "summary": "A weekend make for your table.",
+      "language": "en",
+      "kind": "idea",
+      "estimatedMinutes": 180,
+      "imageIds": [
+        "search-placemats"
+      ],
+      "materials": [],
+      "steps": [],
+      "tips": [],
+      "sources": []
+    },
+    {
+      "id": "softer-reading-corner",
+      "title": "A softer reading corner",
+      "summary": "Cozy textures, natural materials and handmade details to help you slow down and feel at home.",
+      "language": "en",
+      "kind": "collection",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "space-reading"
+      ],
+      "materials": [],
+      "steps": [],
+      "tips": [],
+      "sources": []
+    },
+    {
+      "id": "woven-reading-corner",
+      "title": "My woven reading corner",
+      "summary": "A cozy corner made brighter with a handwoven throw. This simple weave completely changed the feel of my reading nook.",
+      "language": "en",
+      "kind": "inspiration",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "reading-room"
+      ],
+      "materials": [],
+      "steps": [],
+      "tips": [],
+      "sources": []
+    },
+    {
+      "id": "one-shelf-handmade",
+      "title": "One shelf, handmade",
+      "summary": "Create a handmade piece and style it on a shelf in your home. Pottery, a weave, a candle — anything you make.",
+      "language": "en",
+      "kind": "challenge",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "challenge-shelf"
+      ],
+      "materials": [],
+      "steps": [],
+      "tips": [],
+      "sources": []
+    }
+  ],
+  "originalCopyArchive": [
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 6,
+      "texts": [
+        "Made Room"
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 8,
+      "texts": [
+        "Craft. Home. People. A more you."
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 11,
+      "texts": [
+        "Make room for you."
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 12,
+      "texts": [
+        "Search ideas, projects, people…"
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 14,
+      "texts": [
+        "Small spaces"
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 18,
+      "texts": [
+        "Featured this week"
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 19,
+      "texts": [
+        "A softer reading corner",
+        "Cozy textures. Natural materials. Made by you."
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 20,
+      "texts": [
+        "From our community"
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 21,
+      "texts": [
+        "My woven reading corner",
+        "Maya · A little softer, one knot at a time."
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 26,
+      "texts": [
+        "A softer reading corner",
+        "Cozy textures, natural materials and handmade details to help you slow down and feel at home."
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 27,
+      "texts": [
+        "Save collection",
+        "Projects in this collection"
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 28,
+      "texts": [
+        "Woven wall hanging",
+        "Beginner · 90 min"
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 29,
+      "texts": [
+        "Clay catchall",
+        "A small piece, a calmer day."
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 32,
+      "texts": [
+        "Woven wall hanging",
+        "A modern texture for any space."
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 39,
+      "texts": [
+        "Keep each knot loose enough to adjust. Check the row before tightening, then trim the fringe after hanging."
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 41,
+      "texts": [
+        "Create a modern woven wall hanging with simple techniques and natural materials. A relaxing project that brings warmth and texture to your home."
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 43,
+      "texts": [
+        "Made Room Studio",
+        "Home crafts for a calmer, brighter you."
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 45,
+      "texts": [
+        "Start project →"
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 48,
+      "texts": [
+        "See all"
+      ]
+    },
+    {
+      "sourceFile": "DiscoverScreens.swift",
+      "line": 51,
+      "texts": [
+        "Cotton rope",
+        "Wool yarn",
+        "Wooden dowel"
+      ]
+    },
+    {
+      "sourceFile": "SearchDesignScreen.swift",
+      "line": 8,
+      "texts": [
+        "Woven wall hanging",
+        "A modern texture for\nany space."
+      ]
+    },
+    {
+      "sourceFile": "SearchDesignScreen.swift",
+      "line": 9,
+      "texts": [
+        "Woven storage baskets"
+      ]
+    },
+    {
+      "sourceFile": "SearchDesignScreen.swift",
+      "line": 10,
+      "texts": [
+        "Weaving basics",
+        "Learn the fundamentals\nat home."
+      ]
+    },
+    {
+      "sourceFile": "SearchDesignScreen.swift",
+      "line": 11,
+      "texts": [
+        "Woven placemats",
+        "A weekend make for\nyour table."
+      ]
+    },
+    {
+      "sourceFile": "SearchDesignScreen.swift",
+      "line": 19,
+      "texts": [
+        "Search ideas, projects, people…"
+      ]
+    },
+    {
+      "sourceFile": "SearchDesignScreen.swift",
+      "line": 48,
+      "texts": [
+        " weaving woven"
+      ]
+    },
+    {
+      "sourceFile": "SearchDesignScreen.swift",
+      "line": 50,
+      "texts": [
+        "reading corner room space",
+        "nora lane maker"
+      ]
+    },
+    {
+      "sourceFile": "SearchDesignScreen.swift",
+      "line": 54,
+      "texts": [
+        "Shortest time"
+      ]
+    },
+    {
+      "sourceFile": "SearchDesignScreen.swift",
+      "line": 58,
+      "texts": [
+        "No matches yet",
+        "Try a different keyword, skill level or time."
+      ]
+    },
+    {
+      "sourceFile": "SearchDesignScreen.swift",
+      "line": 62,
+      "texts": [
+        "Reading corner",
+        "A cozy space for slow mornings.",
+        "Nora Lane",
+        "Maker · Home stylist · Teacher"
+      ]
+    },
+    {
+      "sourceFile": "SearchDesignScreen.swift",
+      "line": 70,
+      "texts": [
+        "A step-by-step tutorial is not available yet. You can save this idea for inspiration."
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 6,
+      "texts": [
+        "Made Room",
+        "For you"
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 7,
+      "texts": [
+        "My woven reading corner",
+        "Maya · A little softer, one knot at a time.",
+        "Same space, brighter days",
+        "Elena · A handmade home"
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 9,
+      "texts": [
+        "Edit post"
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 11,
+      "texts": [
+        "Add photos",
+        "My woven reading corner"
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 12,
+      "texts": [
+        "A cozy corner for slower days. Handwoven with natural fibers and a lot of patience."
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 13,
+      "texts": [
+        "Woven wall hanging",
+        "Linked project",
+        "Linked space",
+        "Inspired by Nora",
+        "Only me",
+        "Save draft"
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 15,
+      "texts": [
+        "Made Room",
+        "My woven reading corner"
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 16,
+      "texts": [
+        "May 12, 2024 · At Home",
+        "A cozy corner made brighter with a handwoven throw. This simple weave completely changed the feel of my reading nook."
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 19,
+      "texts": [
+        "Try this make"
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 20,
+      "texts": [
+        "View tutorial"
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 21,
+      "texts": [
+        "Reading corner",
+        "In my space",
+        "Inspired by"
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 29,
+      "texts": [
+        "A more creative home together"
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 30,
+      "texts": [
+        "Learn, make and get messy together.",
+        "Small spaces",
+        "Big ideas for smaller homes.",
+        "From first loom to finished piece."
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 32,
+      "texts": [
+        "A cozy corner for all things yarn, loom and fiber. Share your makes and find inspiration together."
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 33,
+      "texts": [
+        "Join circle",
+        "Circle guidelines",
+        "One shelf, handmade",
+        "This month's creative challenge",
+        "Share a make"
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 35,
+      "texts": [
+        "One shelf, handmade",
+        "Style a shelf with something you made."
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 36,
+      "texts": [
+        "Create a handmade piece and style it on a shelf in your home. Pottery, a weave, a candle — anything you make."
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 37,
+      "texts": [
+        "Make one piece",
+        "Create something with your hands.",
+        "Style your shelf",
+        "Place it on a shelf in your home.",
+        "Share your result",
+        "Post a photo and tell us about it."
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 38,
+      "texts": [
+        "Join challenge",
+        "Submit your make"
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 40,
+      "texts": [
+        "Make it your own",
+        "Make it your own",
+        "Turn inspiration into something made by you."
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 41,
+      "texts": [
+        "Project title",
+        "My woven wall hanging",
+        "Choose a space",
+        "One shelf, handmade",
+        "Optional challenge",
+        "Create project"
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 43,
+      "texts": [
+        "Submit your make",
+        "One shelf, handmade",
+        "Share your completed project to this challenge.",
+        "Choose a completed project",
+        "Selected project",
+        "Add a short caption",
+        "Submit to challenge"
+      ]
+    },
+    {
+      "sourceFile": "CommunityScreens.swift",
+      "line": 45,
+      "texts": [
+        "Weaving circle",
+        "A kind space for fiber arts, texture and tradition.",
+        "Share your own work",
+        "Post photos of projects you've made yourself.",
+        "Credit your inspiration",
+        "Give your inspiration a shout-out.",
+        "Be kind and specific",
+        "Share thoughtful, encouraging feedback.",
+        "Keep advice safe",
+        "Choose materials and techniques appropriate to your experience.",
+        "Leave circle"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 3,
+      "texts": [
+        "Cut your cords",
+        "Prepare the dowel",
+        "Tie the first row",
+        "Add more rows",
+        "Trim the fringe",
+        "Finish and hang"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 4,
+      "texts": [
+        "Measure six equal lengths of cotton cord. Cut carefully, leaving extra length for the fringe.",
+        "Place your dowel on a flat surface. Mark evenly spaced positions for each cord.",
+        "Fold a cord in half, place the loop over the dowel, and pull the ends through. Repeat across the row.",
+        "Work across the row, keeping the knots evenly spaced. Add texture with the wool yarn.",
+        "Comb out the fringe and trim it slowly to your preferred shape.",
+        "Attach a hanging cord, check that the dowel is balanced, and hang your finished weave."
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 12,
+      "texts": [
+        "Start a new project",
+        "Turn inspiration into something real."
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 14,
+      "texts": [
+        "Change photo"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 15,
+      "texts": [
+        "Project name",
+        "Woven wall hanging"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 16,
+      "texts": [
+        "Tutorial (optional)"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 17,
+      "texts": [
+        "Woven Wall Hanging\nfor Beginners",
+        "Step-by-step tutorial"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 18,
+      "texts": [
+        "Choose a space"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 19,
+      "texts": [
+        "Create project"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 21,
+      "texts": [
+        "Woven wall hanging"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 29,
+      "texts": [
+        "Keep a photo or note as you make.",
+        "Project notes"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 33,
+      "texts": [
+        "View finished make",
+        "Continue making"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 38,
+      "texts": [
+        "Create a row of square knots on your dowel.",
+        "Take your time and enjoy the process."
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 40,
+      "texts": [
+        "Complete this step at your own pace. Add a photo or note to record your process.",
+        "1. Fold a cord in half and place it over the dowel.\n2. Pull the ends through the loop.\n3. Tighten to create a square knot.\n4. Repeat across the row."
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 42,
+      "texts": [
+        "Add photo"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 44,
+      "texts": [
+        "Next step",
+        "Mark step complete"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 47,
+      "texts": [
+        "Made by you"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 48,
+      "texts": [
+        "Your project is complete!"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 52,
+      "texts": [
+        "Attach to a space",
+        "Only me · saved on this device"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 53,
+      "texts": [
+        "Save to space",
+        "Share your make"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 55,
+      "texts": [
+        "Project notes"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 56,
+      "texts": [
+        "Your project"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 57,
+      "texts": [
+        "Add a note"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 58,
+      "texts": [
+        "Add photo",
+        "Your note"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 59,
+      "texts": [
+        "Save note",
+        "Previous notes"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 61,
+      "texts": [
+        "Your saved note history will appear here."
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 63,
+      "texts": [
+        "Edit project"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 64,
+      "texts": [
+        "Change photo"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 65,
+      "texts": [
+        "Project title"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 67,
+      "texts": [
+        "Edit steps",
+        "One step per line. Changing completed steps updates the recorded progress."
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 68,
+      "texts": [
+        "Save changes"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 102,
+      "texts": [
+        "Materials checklist"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 104,
+      "texts": [
+        "Cotton cord",
+        "Wooden dowel"
+      ]
+    },
+    {
+      "sourceFile": "MakingScreens.swift",
+      "line": 122,
+      "texts": [
+        "Add another material"
+      ]
+    }
+  ]
+}

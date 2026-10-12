@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "creators": [
+    {
+      "uid": "example-nora",
+      "displayName": "Nora Lane",
+      "biography": "Woven textures and small rituals for a calmer home. An editorial example account by Made Room Studio.",
+      "avatarID": "creator-nora",
+      "isExample": true
+    },
+    {
+      "uid": "example-elena",
+      "displayName": "Elena Cruz",
+      "biography": "Simple vessels, seasonal stems and thoughtful surfaces. An editorial example account by Made Room Studio.",
+      "avatarID": "connection-2",
+      "isExample": true
+    },
+    {
+      "uid": "example-lily",
+      "displayName": "Lily Tran",
+      "biography": "Practical ideas for little rooms and everyday corners. An editorial example account by Made Room Studio.",
+      "avatarID": "connection-4",
+      "isExample": true
+    },
+    {
+      "uid": "example-tessa",
+      "displayName": "Tessa Kim",
+      "biography": "Slow stitching and gentle experiments with cloth. An editorial example account by Made Room Studio.",
+      "avatarID": "connection-1",
+      "isExample": true
+    },
+    {
+      "uid": "example-priya",
+      "displayName": "Priya Shah",
+      "biography": "Small yarn projects, patient practice and useful notes. An editorial example account by Made Room Studio.",
+      "avatarID": "connection-3",
+      "isExample": true
+    }
+  ],
+  "posts": [
+    {
+      "id": "community-basket-reset",
+      "title": "A basket for the evening reset",
+      "imageID": "search-baskets",
+      "category": "Weaving",
+      "summary": "Give one basket one clear job.",
+      "body": "Keep a few reading essentials together in a woven basket beside your favorite chair. This example pairs useful storage with an easy evening reset.\n\nAn open basket can make a busy corner feel considered without hiding the things you use every day. This styling idea pairs a natural woven texture with a small collection of useful objects, leaving enough space to see and reach each one.",
+      "materials": [
+        "A woven basket",
+        "A soft cloth liner",
+        "A few everyday objects"
+      ],
+      "ideas": [
+        "Choose a single purpose: reading supplies, spare throws or craft tools.",
+        "Line the base if the weave could snag delicate fabric.",
+        "Place taller items at the back and keep the front easy to reach."
+      ],
+      "reflection": "Let the basket stay a little empty. A useful storage corner should be easy to reset at the end of the day.",
+      "author": "Nora Lane",
+      "contentType": "editorial-example",
+      "language": "en",
+      "authorUID": "example-nora",
+      "catalogOrder": 0
+    },
+    {
+      "id": "community-quiet-place-setting",
+      "title": "One woven mat, a quieter table",
+      "imageID": "search-placemats",
+      "category": "Weaving",
+      "summary": "Natural texture for an everyday meal.",
+      "body": "Set a simple place with a woven mat, one cup and a folded cloth. This example explores how a little texture can make an everyday table feel welcoming.\n\nA woven placemat creates a small frame for a simple place setting. This idea keeps the palette warm and restrained so the texture can do the work. One ceramic plate, a folded napkin and a comfortable amount of empty table are enough.",
+      "materials": [
+        "A woven placemat",
+        "A plate",
+        "A cloth napkin"
+      ],
+      "ideas": [
+        "Start with a clean, dry placemat on a flat table.",
+        "Set the plate slightly above the centre to leave room for the napkin.",
+        "Try one folded edge or a loose roll and choose the version that feels easiest to use."
+      ],
+      "reflection": "Use the mat for an ordinary lunch before adding more decoration. Everyday comfort is the best styling test.",
+      "author": "Nora Lane",
+      "contentType": "editorial-example",
+      "language": "en",
+      "authorUID": "example-nora",
+      "catalogOrder": 1
+    },
+    {
+      "id": "community-shelf-pause",
+      "title": "The shelf with room to breathe",
+      "imageID": "make-shelf",
+      "category": "Small spaces",
+      "summary": "A shelf arrangement with room to pause.",
+      "body": "Give a short shelf just three jobs: hold a book, support a handmade object and leave room for the eye to rest. This example starts with what is already at home.\n\nA small shelf does not need a complete collection to feel personal. Grouping a few pieces by height creates a gentle rhythm, while an open section keeps the arrangement from feeling crowded. Think of this as a starting point you can change with the season.",
+      "materials": [
+        "An existing secure shelf",
+        "Two or three lightweight decorative objects",
+        "A dust cloth"
+      ],
+      "ideas": [
+        "Clear the shelf and wipe the surface.",
+        "Place the tallest object toward one side and a lower piece nearby.",
+        "Leave a visible gap and check the arrangement from the place where you usually sit."
+      ],
+      "reflection": "Keep items within the shelf’s rated load and away from edges. This is a styling exercise, not a shelf-installation guide.",
+      "author": "Lily Tran",
+      "contentType": "editorial-example",
+      "language": "en",
+      "authorUID": "example-lily",
+      "catalogOrder": 2
+    },
+    {
+      "id": "community-vase-still-life",
+      "title": "A small vase for one good branch",
+      "imageID": "creator-vase",
+      "category": "Pottery",
+      "summary": "Give a handmade shape its own space.",
+      "body": "A narrow vase and one branch can create a gentle focal point without filling the whole table. This example is a styling study using an illustrative handmade vessel.\n\nA vase can be a focal point even without a full bouquet. A quiet background and one nearby object make its outline easier to appreciate. This editorial idea celebrates the small irregularities that give handmade pieces character.",
+      "materials": [
+        "A decorative vase",
+        "A stable tray or table",
+        "Optional dried stems"
+      ],
+      "ideas": [
+        "Place the vase on a level surface away from the edge.",
+        "Leave space around the silhouette rather than surrounding it with smaller objects.",
+        "If you add stems, begin with just a few and check that the vase remains balanced."
+      ],
+      "reflection": "Use dried stems unless the vessel is known to be watertight. Decorative clay pieces are not automatically suitable for water.",
+      "author": "Elena Cruz",
+      "contentType": "editorial-example",
+      "language": "en",
+      "authorUID": "example-elena",
+      "catalogOrder": 3
+    },
+    {
+      "id": "community-soft-seat",
+      "title": "A softer seat beside the window",
+      "imageID": "make-pillow",
+      "category": "Textiles",
+      "summary": "Add softness without filling the room.",
+      "body": "A plain cushion can soften a firm chair and bring two colors in a room together. This example looks at placement and texture before buying anything new.\n\nA single textured cushion can connect a chair to the rest of a room. This idea uses a gentle fabric colour and a simple shape, letting the seat remain comfortable and usable. The aim is a small change you notice every time you sit down.",
+      "materials": [
+        "A cushion with a removable cover",
+        "A chair or bench",
+        "A lint brush"
+      ],
+      "ideas": [
+        "Choose a cover that picks up one colour already in the room.",
+        "Brush the fabric and settle the insert evenly into the corners.",
+        "Place the cushion where it supports your back and check the chair is still comfortable."
+      ],
+      "reflection": "Follow the fabric care label when cleaning. A beautiful corner should be easy to live with.",
+      "author": "Lily Tran",
+      "contentType": "editorial-example",
+      "language": "en",
+      "authorUID": "example-lily",
+      "catalogOrder": 4
+    },
+    {
+      "id": "community-little-flower-pause",
+      "title": "A little arrangement for an ordinary day",
+      "imageID": "make-flowers",
+      "category": "Home styling",
+      "summary": "A small arrangement for an ordinary day.",
+      "body": "Gather a few small stems in a vessel that feels stable and easy to clean. This example keeps the arrangement low enough for conversation across a table.\n\nFlowers do not need a special occasion or a large display. A modest arrangement can bring colour to a shelf or work table while leaving space for daily life. Keep the composition loose enough that each stem has a little room around it.",
+      "materials": [
+        "A clean, stable vase",
+        "A few suitable stems",
+        "Water if the vase is watertight"
+      ],
+      "ideas": [
+        "Choose a spot with room around the vase and away from electronics.",
+        "Remove any leaves that would sit below the water line.",
+        "Arrange the longest stems first, then add shorter ones without packing the opening."
+      ],
+      "reflection": "Choose plants appropriate for your household, especially around pets and children. Refresh the water and remove fading stems.",
+      "author": "Elena Cruz",
+      "contentType": "editorial-example",
+      "language": "en",
+      "authorUID": "example-elena",
+      "catalogOrder": 5
+    },
+    {
+      "id": "community-running-stitch-pause",
+      "title": "Three rows of running stitch",
+      "imageID": "craft-embroidery-running-stitch",
+      "category": "Embroidery",
+      "summary": "A small sample with no perfect finish required.",
+      "body": "Practice three short rows on a scrap of fabric before starting a larger piece. This example is about finding a comfortable rhythm, with space to try again.\n\nA scrap of fabric is a forgiving place to explore a simple running stitch. Instead of making a finished object, use this session to notice spacing, thread tension and the feel of the needle. The illustrated sample is a starting point, not a standard you need to match.",
+      "materials": [
+        "A fabric scrap",
+        "Embroidery thread",
+        "A suitable needle",
+        "Small scissors"
+      ],
+      "ideas": [
+        "Mark a short line lightly on the fabric.",
+        "Work a row of small in-and-out stitches, keeping the thread relaxed.",
+        "Try a second row with a different spacing and compare how the two lines feel."
+      ],
+      "reflection": "Stop while you still want to continue. Store the needle safely when you put the sample down.",
+      "author": "Tessa Kim",
+      "contentType": "editorial-example",
+      "language": "en",
+      "authorUID": "example-tessa",
+      "catalogOrder": 6
+    },
+    {
+      "id": "community-outlined-leaf",
+      "title": "A leaf drawn with thread",
+      "imageID": "craft-embroidery-split-outline",
+      "category": "Embroidery",
+      "summary": "Explore one line before a whole pattern.",
+      "body": "Use a simple leaf outline to practice turning corners with thread. This example favors a relaxed line and visible handwork over perfect symmetry.\n\nA simple embroidered outline can hold plenty of character. This idea starts with one curved line so you can concentrate on the direction of the stitches. There is no need to fill the shape or turn the sample into a larger project today.",
+      "materials": [
+        "Woven fabric",
+        "An embroidery hoop",
+        "Embroidery thread and needle",
+        "A removable fabric marker"
+      ],
+      "ideas": [
+        "Draw a small curve with a marker suitable for your fabric.",
+        "Keep stitches short around tighter bends and avoid pulling the fabric into puckers.",
+        "Release the hoop after the session and look at the line in natural light."
+      ],
+      "reflection": "Test the marker on a scrap first. A practice piece is a useful record of what you learned, even with uneven stitches.",
+      "author": "Tessa Kim",
+      "contentType": "editorial-example",
+      "language": "en",
+      "authorUID": "example-tessa",
+      "catalogOrder": 7
+    },
+    {
+      "id": "community-first-crochet-square",
+      "title": "A first square worth keeping",
+      "imageID": "craft-crochet-single-crochet",
+      "category": "Crochet",
+      "summary": "Make a sample before making a promise.",
+      "body": "Keep a first crochet square as a record of practice. This example encourages checking each row and taking a break before frustration replaces curiosity.\n\nA crochet sample can be satisfying on its own. Working a small square gives you a chance to notice the edges, count stitches and become familiar with the yarn. Treat it as a desk-side practice piece rather than the beginning of a project you must finish.",
+      "materials": [
+        "Smooth practice yarn",
+        "A hook matched to the yarn label",
+        "A stitch marker",
+        "Scissors"
+      ],
+      "ideas": [
+        "Choose a small stitch count you can comfortably check at the end of each row.",
+        "Mark the first stitch to make the edge easier to find.",
+        "Pause after a few rows, count the stitches and gently lay the sample flat."
+      ],
+      "reflection": "If the edges change width, check your stitch count before tightening your grip. Comfort matters more than speed.",
+      "author": "Priya Shah",
+      "contentType": "editorial-example",
+      "language": "en",
+      "authorUID": "example-priya",
+      "catalogOrder": 8
+    },
+    {
+      "id": "community-swatch-journal",
+      "title": "A swatch notebook for next time",
+      "imageID": "craft-knitting-gauge-swatch",
+      "category": "Knitting",
+      "summary": "Turn a practice swatch into a useful note.",
+      "body": "Attach a small yarn swatch to a page with a few useful notes. This example makes it easier to remember the material, tools and feel of a future project.\n\nA knitted swatch is more useful when you remember how it was made. Pairing a sample with a few notes creates a small material library for future projects. The goal here is a clear record of the yarn and fabric, not a claim that one sample fits every pattern.",
+      "materials": [
+        "A knitted swatch",
+        "The yarn label",
+        "A ruler",
+        "A notebook"
+      ],
+      "ideas": [
+        "Record the yarn, needle size and stitch pattern beside the sample.",
+        "Wash and dry it according to the yarn instructions before taking final measurements.",
+        "Measure across the central area and note how the fabric feels as well as the stitch count."
+      ],
+      "reflection": "Keep the label with your notes. Follow the actual project pattern when deciding whether a gauge is suitable.",
+      "author": "Priya Shah",
+      "contentType": "editorial-example",
+      "language": "en",
+      "authorUID": "example-priya",
+      "catalogOrder": 9
+    }
+  ]
+}

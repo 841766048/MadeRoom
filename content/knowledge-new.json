@@ -1,0 +1,566 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "items": [
+    {
+      "id": "weaving-even-edges",
+      "title": "Keep Your Woven Edges Even",
+      "summary": "Learn to spot draw-in before it distorts your piece.",
+      "language": "en",
+      "kind": "lesson",
+      "category": "Weaving",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "search-basics"
+      ],
+      "materials": [
+        "Warped practice loom",
+        "Weft yarn"
+      ],
+      "steps": [
+        "Weave a short sample and note its starting width.",
+        "Leave enough weft across the shed before packing the row.",
+        "Watch both edges as you work; undo a tight row before adding another."
+      ],
+      "tips": [
+        "Check width regularly instead of pulling the outer warp sideways."
+      ],
+      "sources": [
+        {
+          "url": "https://schachtspindle.com/blogs/archives/better-selvedges",
+          "accessedAt": "2026-10-09"
+        }
+      ],
+      "authorship": "Original editorial summary; source linked for further study.",
+      "imageNote": "Existing editorial illustration, not a step-by-step photograph."
+    },
+    {
+      "id": "weaving-warp-spacing",
+      "title": "Understand Warp Spacing",
+      "summary": "Warp spacing changes the surface of a woven sample.",
+      "language": "en",
+      "kind": "lesson",
+      "category": "Weaving",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "weaving"
+      ],
+      "materials": [
+        "Frame loom",
+        "Warp thread",
+        "Weft yarn"
+      ],
+      "steps": [
+        "Use the loom maker\u2019s warping instructions.",
+        "Make a small sample at one spacing.",
+        "Compare the coverage before choosing a spacing for a larger piece."
+      ],
+      "tips": [
+        "Keep notes on yarn and spacing so you can repeat the result."
+      ],
+      "sources": [
+        {
+          "url": "https://schachtspindle.com/blogs/projects/warping-frame-looms-for-different-setts",
+          "accessedAt": "2026-10-09"
+        }
+      ],
+      "authorship": "Original editorial summary; source linked for further study.",
+      "imageNote": "Existing editorial illustration, not a step-by-step photograph."
+    },
+    {
+      "id": "embroidery-running-stitch",
+      "title": "Practice Running Stitch",
+      "summary": "Build confidence with a simple dashed line.",
+      "language": "en",
+      "kind": "lesson",
+      "category": "Embroidery",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "craft-embroidery-running-stitch"
+      ],
+      "materials": [
+        "Fabric scrap",
+        "Embroidery needle",
+        "Floss",
+        "Hoop"
+      ],
+      "steps": [
+        "Secure fabric in a hoop.",
+        "Bring the needle up, then down a short distance ahead.",
+        "Repeat to create a line of stitches and gaps.",
+        "Secure the thread on the reverse."
+      ],
+      "tips": [
+        "Start slowly and aim for consistent spacing. Store the needle safely after practice."
+      ],
+      "sources": [
+        {
+          "url": "https://www.dmc.com/US/en/video-embroidery-running-stitch",
+          "accessedAt": "2026-10-09"
+        }
+      ],
+      "authorship": "Original editorial summary; source linked for further study.",
+      "imageNote": "Existing editorial illustration, not a step-by-step photograph."
+    },
+    {
+      "id": "embroidery-backstitch",
+      "title": "Outline with Backstitch",
+      "summary": "Create a continuous outline for a small motif.",
+      "language": "en",
+      "kind": "lesson",
+      "category": "Embroidery",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "craft-embroidery-backstitch"
+      ],
+      "materials": [
+        "Fabric scrap",
+        "Embroidery needle",
+        "Floss"
+      ],
+      "steps": [
+        "Make one short stitch.",
+        "Bring the needle up one stitch length ahead.",
+        "Insert it back at the end of the previous stitch.",
+        "Repeat along your marked line."
+      ],
+      "tips": [
+        "Use shorter stitches around curves."
+      ],
+      "sources": [
+        {
+          "url": "https://www.dmc.com/US/en/sbs-embroidery-stitch-diagrams",
+          "accessedAt": "2026-10-09"
+        }
+      ],
+      "authorship": "Original editorial summary; source linked for further study.",
+      "imageNote": "Existing editorial illustration, not a step-by-step photograph."
+    },
+    {
+      "id": "clay-indoor-care",
+      "title": "Care for Air-Dry Clay Indoors",
+      "summary": "Choose a dry display spot for your finished work.",
+      "language": "en",
+      "kind": "lesson",
+      "category": "Clay",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "pottery"
+      ],
+      "materials": [
+        "Fully dried air-dry clay piece",
+        "Dry display shelf"
+      ],
+      "steps": [
+        "Follow the clay manufacturer\u2019s drying instructions.",
+        "Display the finished piece indoors away from splashes.",
+        "Keep it away from outdoor weather."
+      ],
+      "tips": [
+        "Crayola air-dry clay remains non-waterproof even after sealing."
+      ],
+      "sources": [
+        {
+          "url": "https://www.crayola.com/faqs/can-i-display-air-dry-clay-pieces-outdoors-faq",
+          "accessedAt": "2026-10-09"
+        }
+      ],
+      "authorship": "Original editorial summary; source linked for further study.",
+      "imageNote": "Existing editorial illustration, not a step-by-step photograph."
+    },
+    {
+      "id": "clay-workspace-storage",
+      "title": "Set Up a Clay Workspace",
+      "summary": "Keep your work surface protected and unused clay covered.",
+      "language": "en",
+      "kind": "lesson",
+      "category": "Clay",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "pottery"
+      ],
+      "materials": [
+        "Air-dry clay",
+        "Protective work mat",
+        "Airtight container"
+      ],
+      "steps": [
+        "Cover your work surface before opening the clay.",
+        "Take out a small amount for practice.",
+        "Store unused clay according to the product instructions."
+      ],
+      "tips": [
+        "Crayola advises against storing clay after water has been added. Its colorants may stain."
+      ],
+      "sources": [
+        {
+          "url": "https://www.crayola.com/docs/default-source/instruction-sheets/04-2912-0-400-clay-sculpting-station-idea-guide-1.pdf?sfvrsn=b3d94367_1",
+          "accessedAt": "2026-10-09"
+        }
+      ],
+      "authorship": "Original editorial summary; source linked for further study.",
+      "imageNote": "Existing editorial illustration, not a step-by-step photograph."
+    },
+    {
+      "id": "embroidery-satin-fill",
+      "title": "Fill a Small Shape with Satin Stitch",
+      "summary": "Practice a smooth patch of color by placing straight stitches side by side.",
+      "language": "en",
+      "kind": "lesson",
+      "category": "Embroidery",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "craft-embroidery-satin-fill"
+      ],
+      "materials": [
+        "Cotton fabric scrap",
+        "Embroidery hoop",
+        "Embroidery needle and floss",
+        "Fabric marking pencil"
+      ],
+      "steps": [
+        "Mark a small oval on your fabric and secure it in a hoop without stretching the weave out of shape.",
+        "Bring the needle up at one edge of the oval. Take it down at the opposite edge to make a stitch across the shape.",
+        "Bring the needle up beside the starting point of that stitch. Cross the oval again, keeping the new stitch parallel to its neighbor.",
+        "Continue across the shape, adjusting stitch lengths to meet the outline. Place stitches close enough to cover the fabric without piling them on top of each other.",
+        "Secure the thread on the reverse and remove the hoop to check whether the fabric lies flat."
+      ],
+      "tips": [
+        "Begin with a narrow shape so long threads are less likely to snag.",
+        "If the fabric puckers, loosen your tension rather than pulling the next stitch harder."
+      ],
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=C-iSdn6cNuk",
+          "accessedAt": "2026-10-09"
+        }
+      ],
+      "authorship": "Original Made Room practice lesson; reference linked for further study.",
+      "imageNote": "Text-only practice lesson; no technique photograph is provided."
+    },
+    {
+      "id": "embroidery-split-outline",
+      "title": "Make a Textured Split-Stitch Outline",
+      "summary": "Create a continuous line by bringing the needle through the previous stitch.",
+      "language": "en",
+      "kind": "lesson",
+      "category": "Embroidery",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "craft-embroidery-split-outline"
+      ],
+      "materials": [
+        "Fabric scrap and hoop",
+        "Embroidery needle",
+        "Two or four strands of embroidery floss"
+      ],
+      "steps": [
+        "Draw a short, gentle curve and make one small straight stitch along it.",
+        "Bring the needle up through the middle of that stitch, separating the floss strands into two roughly equal groups.",
+        "Take the needle down a short distance ahead along the curve to form the next stitch.",
+        "Repeat by coming up through the newest stitch, then moving forward. Keep the stitches short where the line bends.",
+        "Finish on the reverse and compare the texture of a straight section with the curved section."
+      ],
+      "tips": [
+        "Use an even number of strands for an easier first practice.",
+        "Ease out a misplaced stitch instead of repeatedly piercing and fraying the same thread."
+      ],
+      "sources": [
+        {
+          "url": "https://studio-koekoek.com/free-hand-embroidery-tutorial-for-beginners-how-to-make-embroidery-stitches-step-by-step/page/2/",
+          "accessedAt": "2026-10-09"
+        }
+      ],
+      "authorship": "Original Made Room practice lesson; reference linked for further study.",
+      "imageNote": "Text-only practice lesson; no technique photograph is provided."
+    },
+    {
+      "id": "crochet-foundation-chain",
+      "title": "Build an Even Crochet Foundation Chain",
+      "summary": "Learn the chain stitch and practice leaving room for the next row.",
+      "language": "en",
+      "kind": "lesson",
+      "category": "Crochet",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "craft-crochet-foundation-chain"
+      ],
+      "materials": [
+        "Smooth, light-colored yarn",
+        "Crochet hook suited to the yarn"
+      ],
+      "steps": [
+        "Make a slip knot and place it on the hook. Adjust it so the loop can slide along the shaft.",
+        "With the working yarn behind the hook, wrap it over the hook from back to front.",
+        "Catch the yarn in the hook and draw it through the existing loop. One new loop remains on the hook.",
+        "Repeat until you have a short chain. Count the visible V-shaped links; do not count the slip knot or the loop on the hook.",
+        "Inspect the links for similar size. Make a second chain with a more relaxed hold if the first is difficult to work into."
+      ],
+      "tips": [
+        "Practice with a short chain before starting a project.",
+        "Avoid tightening each loop around the narrow neck of the hook."
+      ],
+      "sources": [
+        {
+          "url": "https://www.craftyarncouncil.com/files/DiscoverPDFs/031_CCH-Foundation.pdf",
+          "accessedAt": "2026-10-09"
+        }
+      ],
+      "authorship": "Original Made Room practice lesson; reference linked for further study.",
+      "imageNote": "Text-only practice lesson; no technique photograph is provided."
+    },
+    {
+      "id": "crochet-single-crochet",
+      "title": "Work Your First Single Crochet Rows",
+      "summary": "Make a compact practice swatch using US single crochet terminology.",
+      "language": "en",
+      "kind": "lesson",
+      "category": "Crochet",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "craft-crochet-single-crochet"
+      ],
+      "materials": [
+        "Yarn and matching crochet hook",
+        "Removable stitch marker"
+      ],
+      "steps": [
+        "Make 11 foundation chains. Insert the hook into the second chain from the hook.",
+        "Yarn over and pull up a loop through the chain. You now have two loops on the hook.",
+        "Yarn over again and draw through both loops to complete one single crochet stitch.",
+        "Work one single crochet into each remaining chain. Count 10 stitches in the finished row.",
+        "Chain one and turn. Work into the first stitch and then each remaining stitch, going under both top loops. In this exercise the turning chain does not count as a stitch.",
+        "Repeat for several rows, checking that each row still contains 10 stitches."
+      ],
+      "tips": [
+        "Mark the first stitch if you tend to miss it on the return row.",
+        "US single crochet is called double crochet in UK terminology."
+      ],
+      "sources": [
+        {
+          "url": "https://www.craftyarncouncil.com/instructions_cr.php3",
+          "accessedAt": "2026-10-09"
+        }
+      ],
+      "authorship": "Original Made Room practice lesson; reference linked for further study.",
+      "imageNote": "Text-only practice lesson; no technique photograph is provided."
+    },
+    {
+      "id": "crochet-slip-stitch",
+      "title": "Practice a Low-Profile Slip Stitch",
+      "summary": "Move across existing crochet stitches with very little added height.",
+      "language": "en",
+      "kind": "lesson",
+      "category": "Crochet",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "craft-crochet-slip-stitch"
+      ],
+      "materials": [
+        "Small single-crochet swatch",
+        "Matching yarn and hook"
+      ],
+      "steps": [
+        "With a working loop on the hook, insert the hook under the top loops of the next stitch.",
+        "Catch the working yarn with the hook.",
+        "Draw that yarn through the stitch and through the loop already on the hook in one movement.",
+        "Repeat across a short section, keeping your grip relaxed.",
+        "Compare the new edge with the original swatch. If it pulls inward, undo the practice section and try again with looser tension."
+      ],
+      "tips": [
+        "Slip stitches can be used for joins and edges; follow the project instructions for their placement.",
+        "Do not treat a slip-stitch row as interchangeable with a taller stitch row."
+      ],
+      "sources": [
+        {
+          "url": "https://media.craftyarncouncil.com/files/CIP/CYC_CIP_Crochet_Program_2017.pdf",
+          "accessedAt": "2026-10-09"
+        }
+      ],
+      "authorship": "Original Made Room practice lesson; reference linked for further study.",
+      "imageNote": "Text-only practice lesson; no technique photograph is provided."
+    },
+    {
+      "id": "knitting-gauge-swatch",
+      "title": "Measure a Knitting Gauge Swatch",
+      "summary": "Check stitch and row density before making an item that needs to fit.",
+      "language": "en",
+      "kind": "lesson",
+      "category": "Knitting",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "craft-knitting-gauge-swatch"
+      ],
+      "materials": [
+        "Project yarn and knitting needles",
+        "Pattern gauge information",
+        "Ruler",
+        "Notebook"
+      ],
+      "steps": [
+        "Use the yarn and stitch pattern specified for your project. Knit a sample larger than the area you intend to measure.",
+        "Lay the sample flat without stretching it. Place a ruler across its center, away from the edge stitches.",
+        "Count the stitches across 4 inches or 10 cm, then count the rows over the same distance vertically.",
+        "Compare both measurements with the pattern. More stitches in the measured width means your stitches are smaller than required.",
+        "If needed, try a larger needle to make larger stitches or a smaller needle to make smaller stitches. Knit and measure another sample.",
+        "Record the needle size and measurements so you can check your tension again during the project."
+      ],
+      "tips": [
+        "A starting sample around 6 inches wide gives room to measure the middle.",
+        "Gauge is a measurement, not a judgment of knitting skill."
+      ],
+      "sources": [
+        {
+          "url": "https://www.craftyarncouncil.com/files/CIP/CYC_CIP_Knit_Program.pdf",
+          "accessedAt": "2026-10-09"
+        }
+      ],
+      "authorship": "Original Made Room practice lesson; reference linked for further study.",
+      "imageNote": "Text-only practice lesson; no technique photograph is provided."
+    },
+    {
+      "id": "yarn-weight-labels",
+      "title": "Read Yarn Weight Symbols",
+      "summary": "Separate yarn thickness categories from the amount of yarn in a ball.",
+      "language": "en",
+      "kind": "lesson",
+      "category": "Yarn Basics",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "craft-yarn-weight-labels"
+      ],
+      "materials": [
+        "Two labeled yarn balls",
+        "Notebook"
+      ],
+      "steps": [
+        "Find the numbered yarn-weight symbol on each label, if one is provided.",
+        "In the Craft Yarn Council system, the categories run from 0 to 7, moving from the finest yarns to the thickest.",
+        "Write down each category alongside the yarn name. Do not confuse this category with the ball weight printed in grams or ounces.",
+        "Compare the two yarns visually and by touch. Use the category as a starting point when reviewing a pattern\u2019s yarn requirements.",
+        "Before substituting yarn in a fitted project, make a gauge swatch; a matching category alone does not guarantee a matching result."
+      ],
+      "tips": [
+        "Keep the label with your project notes for later reference.",
+        "Not every manufacturer uses the same labeling layout."
+      ],
+      "sources": [
+        {
+          "url": "https://craftyarncouncil.com/standards/yarn-label-information",
+          "accessedAt": "2026-10-09"
+        }
+      ],
+      "authorship": "Original Made Room practice lesson; reference linked for further study.",
+      "imageNote": "Text-only practice lesson; no technique photograph is provided."
+    },
+    {
+      "id": "clay-drying-check",
+      "title": "Plan Time for Air-Dry Clay to Dry",
+      "summary": "Distinguish a dry surface from a fully dried decorative piece.",
+      "language": "en",
+      "kind": "lesson",
+      "category": "Clay",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "pottery"
+      ],
+      "materials": [
+        "Crayola Air-Dry Clay piece",
+        "Protected drying surface",
+        "Note with the making date"
+      ],
+      "steps": [
+        "Place the finished piece on a suitable protected surface and note when you made it.",
+        "For Crayola Air-Dry Clay, use about 24 hours to touch-dry and about 72 hours to fully dry as general guidance, not a guarantee.",
+        "Allow for the thickness of the piece and the conditions in the room; larger pieces and different environments can change the drying time.",
+        "Follow the product instructions and wait until the piece is fully dry before decorating it.",
+        "Keep the drying note with your practice sample so you can plan future projects more realistically."
+      ],
+      "tips": [
+        "Do not assume a firm outer surface means the center is ready.",
+        "These timing guidelines are product-specific; check the label when changing clay brands."
+      ],
+      "sources": [
+        {
+          "url": "https://www.crayola.com/faqs/how-long-does-it-take-for-air-dry-clay-to-dry-faq",
+          "accessedAt": "2026-10-09"
+        }
+      ],
+      "authorship": "Original Made Room practice lesson; reference linked for further study.",
+      "imageNote": "Existing editorial illustration, not a step-by-step photograph."
+    },
+    {
+      "id": "clay-prevent-cracks",
+      "title": "Reduce Cracking in Air-Dry Clay",
+      "summary": "Control excess water and avoid rigid supports that resist shrinkage.",
+      "language": "en",
+      "kind": "lesson",
+      "category": "Clay",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "pottery"
+      ],
+      "materials": [
+        "Crayola Air-Dry Clay",
+        "Protected work mat",
+        "Small amount of water if needed"
+      ],
+      "steps": [
+        "Plan a simple freestanding practice form instead of wrapping clay tightly around a rigid object.",
+        "For Crayola Air-Dry Clay, keep the form at least 1/4 inch thick, following the manufacturer\u2019s guidance.",
+        "Add water sparingly only when needed for softening or joining. Avoid turning the clay into a very wet mixture.",
+        "If you have added too much water, allow some moisture to evaporate before shaping the piece.",
+        "Let the form dry according to the product instructions and note where any cracks appear before trying a revised sample."
+      ],
+      "tips": [
+        "Clay shrinks while drying; an inflexible core cannot shrink with it.",
+        "If a support is necessary, Crayola suggests one with some give, such as crumpled foil."
+      ],
+      "sources": [
+        {
+          "url": "https://www.crayola.com/faqs/why-has-my-air-dry-clay-piece-cracked-faq",
+          "accessedAt": "2026-10-09"
+        }
+      ],
+      "authorship": "Original Made Room practice lesson; reference linked for further study.",
+      "imageNote": "Existing editorial illustration, not a step-by-step photograph."
+    },
+    {
+      "id": "clay-paint-test",
+      "title": "Test Paint on Fully Dried Clay",
+      "summary": "Try a small color sample before decorating a finished piece.",
+      "language": "en",
+      "kind": "lesson",
+      "category": "Clay",
+      "estimatedMinutes": null,
+      "imageIds": [
+        "pottery"
+      ],
+      "materials": [
+        "Fully dried Crayola Air-Dry Clay sample",
+        "Tempera, acrylic, or watercolor paint",
+        "Brush",
+        "Protected work surface"
+      ],
+      "steps": [
+        "Check that the clay sample is completely dry before applying paint.",
+        "Choose a small test area and apply your selected paint with a brush. Crayola lists tempera, acrylic, and watercolor as options for thoroughly dried pieces.",
+        "Allow the painted test to dry according to the paint instructions.",
+        "Compare the dry color with the effect you wanted, then use the same approach on the decorative piece.",
+        "Keep the sample with a note of the paint used so the result can guide your next project."
+      ],
+      "tips": [
+        "Protect the table and clothing before painting.",
+        "Paint is decoration; do not assume it makes an air-dry clay object waterproof or suitable for food contact."
+      ],
+      "sources": [
+        {
+          "url": "https://www.crayola.com/en-ca/faqs/do-you-have-any-tips-for-decorating-air-dry-clay-faq",
+          "accessedAt": "2026-10-09"
+        }
+      ],
+      "authorship": "Original Made Room practice lesson; reference linked for further study.",
+      "imageNote": "Existing editorial illustration, not a step-by-step photograph."
+    }
+  ]
+}

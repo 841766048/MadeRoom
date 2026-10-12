@@ -1,0 +1,928 @@
+[
+  {
+    "name": "room-hero",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "01-discover-v1.png",
+    "screen": "D01",
+    "box": [
+      4,
+      107,
+      336,
+      192
+    ]
+  },
+  {
+    "name": "weave",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "01-discover-v1.png",
+    "screen": "D04",
+    "box": [
+      3,
+      81,
+      337,
+      266
+    ]
+  },
+  {
+    "name": "reading-room",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "05-community-v3.png",
+    "screen": "C03",
+    "box": [
+      4,
+      123,
+      335,
+      316
+    ]
+  },
+  {
+    "name": "space-reading",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "03-finish-spaces-v1.png",
+    "screen": "S01",
+    "box": [
+      18,
+      172,
+      291,
+      214
+    ]
+  },
+  {
+    "name": "space-entry",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "03-finish-spaces-v1.png",
+    "screen": "S01",
+    "box": [
+      18,
+      472,
+      291,
+      176
+    ]
+  },
+  {
+    "name": "pottery",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "01-discover-v1.png",
+    "screen": "D01",
+    "box": [
+      16,
+      396,
+      84,
+      68
+    ]
+  },
+  {
+    "name": "weaving",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "01-discover-v1.png",
+    "screen": "D01",
+    "box": [
+      131,
+      396,
+      78,
+      66
+    ]
+  },
+  {
+    "name": "plant",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "01-discover-v1.png",
+    "screen": "D01",
+    "box": [
+      248,
+      396,
+      76,
+      67
+    ]
+  },
+  {
+    "name": "maker",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "05-community-v3.png",
+    "screen": "C03",
+    "box": [
+      17,
+      490,
+      35,
+      36
+    ]
+  },
+  {
+    "name": "studio",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "01-discover-v1.png",
+    "screen": "D04",
+    "box": [
+      21,
+      600,
+      78,
+      77
+    ]
+  },
+  {
+    "name": "cotton",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "01-discover-v1.png",
+    "screen": "D04",
+    "box": [
+      24,
+      744,
+      62,
+      57
+    ]
+  },
+  {
+    "name": "yarn",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "01-discover-v1.png",
+    "screen": "D04",
+    "box": [
+      106,
+      744,
+      64,
+      57
+    ]
+  },
+  {
+    "name": "dowel",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "01-discover-v1.png",
+    "screen": "D04",
+    "box": [
+      190,
+      744,
+      61,
+      57
+    ]
+  },
+  {
+    "name": "scissors",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "01-discover-v1.png",
+    "screen": "D04",
+    "box": [
+      274,
+      744,
+      62,
+      57
+    ]
+  },
+  {
+    "name": "knot-hands",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "02-making-v2.png",
+    "screen": "M04",
+    "box": [
+      20,
+      150,
+      298,
+      280
+    ]
+  },
+  {
+    "name": "weaving-maker",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "06-circles-v2.png",
+    "screen": "C08",
+    "box": [
+      1,
+      77,
+      337,
+      165
+    ]
+  },
+  {
+    "name": "challenge-shelf",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "06-circles-v2.png",
+    "screen": "C09",
+    "box": [
+      1,
+      198,
+      337,
+      263
+    ]
+  },
+  {
+    "name": "profile-cover",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P01",
+    "box": [
+      3,
+      109,
+      327,
+      184
+    ]
+  },
+  {
+    "name": "profile-avatar",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P01",
+    "box": [
+      15,
+      299,
+      103,
+      103
+    ]
+  },
+  {
+    "name": "profile-mug",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P01",
+    "box": [
+      15,
+      548,
+      95,
+      102
+    ]
+  },
+  {
+    "name": "profile-pillow",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P01",
+    "box": [
+      119,
+      548,
+      95,
+      102
+    ]
+  },
+  {
+    "name": "profile-daisies",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P01",
+    "box": [
+      224,
+      548,
+      94,
+      102
+    ]
+  },
+  {
+    "name": "profile-hanging-plant",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P01",
+    "box": [
+      15,
+      657,
+      95,
+      113
+    ]
+  },
+  {
+    "name": "profile-bowls",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P01",
+    "box": [
+      119,
+      657,
+      95,
+      113
+    ]
+  },
+  {
+    "name": "profile-flowers",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P01",
+    "box": [
+      224,
+      657,
+      94,
+      113
+    ]
+  },
+  {
+    "name": "saved-reading",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P02",
+    "box": [
+      16,
+      180,
+      300,
+      117
+    ]
+  },
+  {
+    "name": "saved-weekend",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P02",
+    "box": [
+      16,
+      450,
+      300,
+      113
+    ]
+  },
+  {
+    "name": "saved-books",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P02",
+    "box": [
+      25,
+      354,
+      68,
+      66
+    ]
+  },
+  {
+    "name": "saved-mug",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P02",
+    "box": [
+      103,
+      354,
+      63,
+      66
+    ]
+  },
+  {
+    "name": "saved-lamp",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P02",
+    "box": [
+      176,
+      354,
+      62,
+      66
+    ]
+  },
+  {
+    "name": "saved-plant",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P02",
+    "box": [
+      248,
+      354,
+      66,
+      66
+    ]
+  },
+  {
+    "name": "saved-plate",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P02",
+    "box": [
+      25,
+      622,
+      67,
+      70
+    ]
+  },
+  {
+    "name": "saved-crochet",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P02",
+    "box": [
+      103,
+      622,
+      64,
+      70
+    ]
+  },
+  {
+    "name": "saved-blue-mug",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P02",
+    "box": [
+      177,
+      622,
+      64,
+      70
+    ]
+  },
+  {
+    "name": "saved-fabric",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P02",
+    "box": [
+      250,
+      622,
+      65,
+      70
+    ]
+  },
+  {
+    "name": "activity-lena",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P03",
+    "box": [
+      16,
+      180,
+      51,
+      51
+    ]
+  },
+  {
+    "name": "activity-tessa",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P03",
+    "box": [
+      16,
+      295,
+      51,
+      51
+    ]
+  },
+  {
+    "name": "activity-yuna",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P03",
+    "box": [
+      16,
+      547,
+      51,
+      51
+    ]
+  },
+  {
+    "name": "activity-marisol",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P03",
+    "box": [
+      16,
+      725,
+      51,
+      51
+    ]
+  },
+  {
+    "name": "activity-mug",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P03",
+    "box": [
+      249,
+      181,
+      49,
+      51
+    ]
+  },
+  {
+    "name": "activity-space",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P03",
+    "box": [
+      244,
+      382,
+      54,
+      60
+    ]
+  },
+  {
+    "name": "activity-plant",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P03",
+    "box": [
+      244,
+      548,
+      54,
+      55
+    ]
+  },
+  {
+    "name": "activity-flowers",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P03",
+    "box": [
+      247,
+      727,
+      51,
+      50
+    ]
+  },
+  {
+    "name": "profile-edit-avatar",
+    "role": "Editorial photograph or illustration only; no interface controls",
+    "source": "07-profile-v2.png",
+    "screen": "P04",
+    "box": [
+      94,
+      164,
+      146,
+      146
+    ]
+  },
+  {
+    "name": "make-shelf",
+    "source": "02-making-v2.png",
+    "boardBox": [
+      370,
+      100,
+      503,
+      220
+    ],
+    "role": "Independent content photograph or illustration; no UI controls"
+  },
+  {
+    "name": "make-weave",
+    "source": "02-making-v2.png",
+    "boardBox": [
+      204,
+      295,
+      306,
+      399
+    ],
+    "role": "Independent content photograph or illustration; no UI controls"
+  },
+  {
+    "name": "make-clay",
+    "source": "02-making-v2.png",
+    "boardBox": [
+      204,
+      428,
+      306,
+      531
+    ],
+    "role": "Independent content photograph or illustration; no UI controls"
+  },
+  {
+    "name": "make-vase",
+    "source": "02-making-v2.png",
+    "boardBox": [
+      372,
+      560,
+      489,
+      647
+    ],
+    "role": "Independent content photograph or illustration; no UI controls"
+  },
+  {
+    "name": "make-empty",
+    "source": "10-states-v2.png",
+    "boardBox": [
+      54,
+      181,
+      359,
+      421
+    ],
+    "role": "Independent content photograph or illustration; no UI controls"
+  },
+  {
+    "name": "make-basket",
+    "source": "10-states-v2.png",
+    "boardBox": [
+      38,
+      704,
+      144,
+      780
+    ],
+    "role": "Independent content photograph or illustration; no UI controls"
+  },
+  {
+    "name": "make-flowers",
+    "source": "10-states-v2.png",
+    "boardBox": [
+      158,
+      704,
+      264,
+      780
+    ],
+    "role": "Independent content photograph or illustration; no UI controls"
+  },
+  {
+    "name": "make-pillow",
+    "source": "10-states-v2.png",
+    "boardBox": [
+      279,
+      704,
+      369,
+      780
+    ],
+    "role": "Independent content photograph or illustration; no UI controls"
+  },
+  {
+    "name": "search-wall",
+    "source": "01-discover-v1.png",
+    "boardBox": [
+      420,
+      204,
+      525,
+      290
+    ],
+    "role": "Independent content photo only"
+  },
+  {
+    "name": "search-baskets",
+    "source": "01-discover-v1.png",
+    "boardBox": [
+      420,
+      309,
+      525,
+      390
+    ],
+    "role": "Independent content photo only"
+  },
+  {
+    "name": "search-basics",
+    "source": "01-discover-v1.png",
+    "boardBox": [
+      420,
+      407,
+      525,
+      496
+    ],
+    "role": "Independent content photo only"
+  },
+  {
+    "name": "search-placemats",
+    "source": "01-discover-v1.png",
+    "boardBox": [
+      420,
+      516,
+      525,
+      599
+    ],
+    "role": "Independent content photo only"
+  },
+  {
+    "name": "make-finished",
+    "source": "03-finish-spaces-v1.png",
+    "boardBox": [
+      49,
+      256,
+      348,
+      563
+    ],
+    "role": "Independent content photograph only"
+  },
+  {
+    "name": "make-note",
+    "source": "12-project-tools-v2.png",
+    "boardBox": [
+      51,
+      292,
+      357,
+      392
+    ],
+    "role": "Independent content photograph only"
+  },
+  {
+    "name": "make-edit",
+    "source": "12-project-tools-v2.png",
+    "boardBox": [
+      447,
+      111,
+      771,
+      240
+    ],
+    "role": "Independent content photograph only"
+  },
+  {
+    "name": "comment-post",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      428,
+      167,
+      493,
+      226
+    ],
+    "role": "Content photo only"
+  },
+  {
+    "name": "comment-tessa",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      429,
+      295,
+      474,
+      339
+    ],
+    "role": "Content photo only"
+  },
+  {
+    "name": "comment-maya",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      467,
+      390,
+      500,
+      423
+    ],
+    "role": "Content photo only"
+  },
+  {
+    "name": "comment-elena",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      430,
+      522,
+      474,
+      566
+    ],
+    "role": "Content photo only"
+  },
+  {
+    "name": "comment-priya",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      430,
+      738,
+      474,
+      782
+    ],
+    "role": "Content photo only"
+  },
+  {
+    "name": "creator-nora",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      802,
+      162,
+      900,
+      258
+    ],
+    "role": "Independent content photograph"
+  },
+  {
+    "name": "creator-mug",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      802,
+      517,
+      951,
+      627
+    ],
+    "role": "Independent content photograph"
+  },
+  {
+    "name": "creator-weave",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      965,
+      517,
+      1114,
+      627
+    ],
+    "role": "Independent content photograph"
+  },
+  {
+    "name": "creator-bowl",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      802,
+      669,
+      951,
+      779
+    ],
+    "role": "Independent content photograph"
+  },
+  {
+    "name": "creator-vase",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      965,
+      669,
+      1114,
+      779
+    ],
+    "role": "Independent content photograph"
+  },
+  {
+    "name": "connection-0",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      1181,
+      217,
+      1226,
+      262
+    ],
+    "role": "Independent content photograph"
+  },
+  {
+    "name": "connection-1",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      1181,
+      282,
+      1226,
+      327
+    ],
+    "role": "Independent content photograph"
+  },
+  {
+    "name": "connection-2",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      1181,
+      347,
+      1226,
+      392
+    ],
+    "role": "Independent content photograph"
+  },
+  {
+    "name": "connection-3",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      1181,
+      412,
+      1226,
+      457
+    ],
+    "role": "Independent content photograph"
+  },
+  {
+    "name": "connection-4",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      1181,
+      477,
+      1226,
+      522
+    ],
+    "role": "Independent content photograph"
+  },
+  {
+    "name": "connection-5",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      1181,
+      543,
+      1226,
+      588
+    ],
+    "role": "Independent content photograph"
+  },
+  {
+    "name": "connection-6",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      1181,
+      608,
+      1226,
+      653
+    ],
+    "role": "Independent content photograph"
+  },
+  {
+    "name": "connection-7",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      1181,
+      674,
+      1226,
+      719
+    ],
+    "role": "Independent content photograph"
+  },
+  {
+    "name": "connection-8",
+    "source": "05-community-v3.png",
+    "boardBox": [
+      1181,
+      739,
+      1226,
+      784
+    ],
+    "role": "Independent content photograph"
+  },
+  {
+    "name": "auth-room",
+    "role": "Audited independent illustration only; no UI controls",
+    "source": "Pixso Cvv6xQS2eeP0vnHU4qCbww / 3:5",
+    "screen": "Auth"
+  },
+  {
+    "name": "auth-mug",
+    "role": "Audited independent illustration only; no UI controls",
+    "source": "Pixso Cvv6xQS2eeP0vnHU4qCbww / 3:7",
+    "screen": "Auth"
+  },
+  {
+    "name": "auth-envelope",
+    "role": "Audited independent illustration only; no UI controls",
+    "source": "Pixso Cvv6xQS2eeP0vnHU4qCbww / 3:9",
+    "screen": "Auth"
+  },
+  {
+    "name": "auth-plant",
+    "role": "Audited independent illustration only; no UI controls",
+    "source": "Pixso Cvv6xQS2eeP0vnHU4qCbww / 3:11",
+    "screen": "Auth"
+  }
+]
