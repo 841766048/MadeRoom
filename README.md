@@ -106,7 +106,7 @@ Debug 长按 1.5 秒打开页面检查目录；`--screen D04` 可直达页面。
 仓库根目录的 `codemagic.yaml` 提供两个手动工作流，固定 Xcode 27.0、CocoaPods 1.16.2，使用已提交的 `Podfile.lock` 和 `MadeRoom.xcworkspace`。不设置自动触发。
 
 - `ios-tests`：安装锁定依赖 → MadeRoomTests 单元测试 → 无分发签名的真机 Release 编译。
-- `ios-release`：安装依赖 → 设置构建号 → 单元测试 → App Store 签名 → 归档导出 IPA。使用前在 MadeRoom 环境变量中设置未上传过的正整数 `RELEASE_BUILD_NUMBER`，并配置匹配 `studio.maderoom.ios` 的 App Store 描述文件与证书。
+- `ios-release`：安装依赖 → 设置构建号 → 单元测试 → App Store 签名 → 归档导出 IPA。使用前在 MadeRoom 环境变量中设置未上传过的正整数 `RELEASE_BUILD_NUMBER`，并配置匹配 `com.huankecontact.test` 的 App Store 描述文件与证书。
 
 版本默认 `1.0.0 (1)`，由 `project.yml` 与已提交工程一致管理；CI 使用 agvtool 修改当前构建副本的 Build 号。后续更新营销版本时同步修改 XcodeGen 配置并重新生成工程、执行 `pod install`。
 
@@ -124,3 +124,7 @@ TEST_DESTINATION='platform=iOS Simulator,name=iPhone 18 Pro,OS=27.0' bash script
 ```
 
 提交并推送配置后，在 Codemagic 的 MadeRoom 项目选择对应分支，点击 Check for configuration files，然后手动运行 `ios-tests`。当前代码配置不代表云端构建、签名或上传已经验证成功。
+
+## Huanke 测试包分支
+
+`codex/huanke-test-bundle` 使用 Bundle ID `com.huankecontact.test`，对应 Firebase iOS App `1:696279410418:ios:088673f4a8bc7352a8d26b`。配置来自 Firebase 注册的真实 iOS App。继续使用 `made-room-20261009` 项目的认证、Firestore 和内容服务，云端账号与数据并未隔离；本机测试偏好使用独立命名空间。主分支仍使用原 Bundle ID 与 Firebase App。Codemagic 构建时选择本分支，签名描述文件须匹配新 Bundle ID。

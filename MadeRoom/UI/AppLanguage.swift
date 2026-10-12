@@ -3,7 +3,7 @@ import UIKit
 /// Presentation-only translation. Persisted identifiers and user-authored content stay unchanged.
 enum AppLanguage {
     static var defaults: UserDefaults {
-        ProcessInfo.processInfo.arguments.contains("--uitesting") ? UserDefaults(suiteName: "studio.maderoom.language-tests")! : .standard
+        ProcessInfo.processInfo.arguments.contains("--uitesting") ? UserDefaults(suiteName: "com.huankecontact.test.language-tests")! : .standard
     }
     static var isChinese: Bool { defaults.string(forKey: "app.language") == "zh-Hans" }
     static var userContent = Set<String>()

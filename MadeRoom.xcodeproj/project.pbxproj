@@ -620,7 +620,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = studio.maderoom.MadeRoomTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huankecontact.test.MadeRoomTests;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadeRoom.app/MadeRoom";
@@ -774,7 +774,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = studio.maderoom.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huankecontact.test;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -791,7 +791,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = studio.maderoom.MadeRoomUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huankecontact.test.MadeRoomUITests;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MadeRoom;
@@ -809,7 +809,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = studio.maderoom.MadeRoomTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huankecontact.test.MadeRoomTests;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadeRoom.app/MadeRoom";
@@ -827,7 +827,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = studio.maderoom.MadeRoomUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huankecontact.test.MadeRoomUITests;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MadeRoom;
@@ -850,7 +850,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = studio.maderoom.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huankecontact.test;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

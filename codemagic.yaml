@@ -1,5 +1,5 @@
 # MadeRoom / https://github.com/841766048/MadeRoom
-# Manual workflows only. Apple signing resources must match studio.maderoom.ios.
+# Manual workflows only. Apple signing resources must match com.huankecontact.test.
 workflows:
   ios-tests:
     name: MadeRoom - unit tests and Release build
@@ -37,7 +37,7 @@ workflows:
       cocoapods: '1.16.2'
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: studio.maderoom.ios
+        bundle_identifier: com.huankecontact.test
     scripts:
       - *dependencies
       - name: Set explicit release build number

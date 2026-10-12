@@ -2,7 +2,7 @@ import UIKit
 import WebKit
 
 enum AuthConsent {
-    static var defaults: UserDefaults { ProcessInfo.processInfo.arguments.contains("--uitesting") ? UserDefaults(suiteName: "studio.maderoom.auth-tests")! : .standard }
+    static var defaults: UserDefaults { ProcessInfo.processInfo.arguments.contains("--uitesting") ? UserDefaults(suiteName: "com.huankecontact.test.auth-tests")! : .standard }
     static var accepted: Bool { defaults.bool(forKey: "auth.privacy.v1") }
     static func accept() { defaults.set(true, forKey: "auth.privacy.v1") }
     static func reset() { defaults.removeObject(forKey: "auth.privacy.v1") }

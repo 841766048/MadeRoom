@@ -9,7 +9,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>studio.maderoom.ios</string>
+	<string>com.huankecontact.test</string>
 	<key>PROJECT_ID</key>
 	<string>made-room-20261009</string>
 	<key>STORAGE_BUCKET</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:696279410418:ios:06878ad8e13856c1a8d26b</string>
+	<string>1:696279410418:ios:088673f4a8bc7352a8d26b</string>
 </dict>
 </plist>
